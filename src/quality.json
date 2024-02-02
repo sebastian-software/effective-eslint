@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "complexity": ["error", 15],
+    "max-lines": [
+      "error",
+      { "max": 750, "skipBlankLines": false, "skipComments": false }
+    ],
+    "max-nested-callbacks": ["error", 3],
+
+    "sort-imports": ["error", { "ignoreDeclarationSort": true }],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { "order": "asc" },
+        "pathGroups": [
+          { "pattern": "~**", "group": "internal" },
+          { "pattern": "~**/**", "group": "internal" }
+        ],
+        "groups": ["builtin", "external", "internal"],
+        "newlines-between": "always"
+      }
+    ],
+
+    "react/jsx-curly-brace-presence": ["error"],
+    "react/self-closing-comp": ["error"]
+  }
+}
