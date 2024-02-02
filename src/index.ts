@@ -165,6 +165,13 @@ async function loadConfigs() {
 
   await mergeConfig(
     getConfig({
+      extends: ["plugin:import/recommended"]
+    }),
+    "import"
+  )
+
+  await mergeConfig(
+    getConfig({
       extends: ["eslint-config-xo"]
     }),
     "xo"
