@@ -1,4 +1,5 @@
 import { ESLint, Linter } from "eslint"
+import { writeFile } from "fs/promises"
 
 process.env.ESLINT_USE_FLAT_CONFIG = "true"
 
@@ -219,10 +220,13 @@ async function loadConfigs() {
     "quality"
   )
 
-  cleanupUnusedPlugins(combined, ["vue", "flowtype", "@next"])
+  cleanupUnusedPlugins(combined, ["vue", "flowtype", "@next", "node"])
   cleanupExplicitOff(combined)
 
   const ruleNames = Object.keys(combined).sort(ruleSorter)
+  for (const ruleName of ruleNames) {
+  }
+
   for (const ruleName of ruleNames) {
     console.log(ruleName)
     for (const [origin, value] of Object.entries(combined[ruleName])) {
@@ -231,6 +235,64 @@ async function loadConfigs() {
   }
 
   console.log("Length:", ruleNames.length)
+
+  console.log("Writing table...")
+  await writeTable(combined)
+}
+
+function getAllOrigins(combined: CombinedRules) {
+  const origins = new Set<string>()
+  for (const rules of Object.values(combined)) {
+    for (const origin of Object.keys(rules)) {
+      origins.add(origin)
+    }
+  }
+
+  return Array.from(origins).sort()
+}
+
+async function writeTable(combined: CombinedRules) {
+  const columns = getAllOrigins(combined)
+
+  const builder = []
+  builder.push("<style>")
+  builder.push("table {")
+  builder.push("  font-family: system-ui;")
+  builder.push("  border-collapse: collapse;")
+  builder.push("  table-layout: fixed;")
+  builder.push("  width: 100%;")
+  builder.push("}")
+  builder.push("th, td {")
+  builder.push("  border: 1px solid #555;")
+  builder.push("  padding: 4px;")
+  builder.push("  font-size: 12px;")
+  builder.push("  overflow: hidden;")
+  builder.push("  text-overflow: ellipsis;")
+  builder.push("  text-align: left;")
+  builder.push("}")
+  builder.push("tr>th:first-child {")
+  builder.push("  width: 200px;")
+  builder.push("}")
+  builder.push("</style>")
+  builder.push("<table>")
+  builder.push(`<th></th>`)
+  columns.forEach((origin) => {
+    builder.push(`<th>${origin}</th>`)
+  })
+
+  const ruleNames = Object.keys(combined).sort(ruleSorter)
+  for (const ruleName of ruleNames) {
+    builder.push("<tr>")
+    builder.push(`<th>${ruleName}</th>`)
+    for (const origin of columns) {
+      builder.push(`<td>${combined[ruleName][origin] ?? ""}</td>`)
+    }
+    builder.push("</tr>")
+  }
+
+  builder.push("</table>")
+
+  await writeFile("table.html", builder.join("\n"))
 }
 
 void loadConfigs()
