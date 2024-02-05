@@ -1,4 +1,3 @@
-import { Linter } from "eslint"
 import { writeTable } from "./writeTable"
 import { CombinedRules } from "./types"
 import { loadConfigs } from "./loader"
@@ -7,7 +6,14 @@ import {
   cleanupRemainingOff,
   cleanupUnusedPlugins
 } from "./cleanup"
+import {
+  deprecatedRules,
+  dropPluginRules,
+  mergePriority,
+  selectPresetRules
+} from "./config"
 
+/** Custom sort method which sorts plugin rules separately. */
 export function ruleSorter(a: string, b: string) {
   if (a.includes("/") && !b.includes("/")) {
     return 1
@@ -19,21 +25,6 @@ export function ruleSorter(a: string, b: string) {
   return a.localeCompare(b)
 }
 
-const effectivePriorities = [
-  // multi plugin presets
-  "xo",
-  "ts-strict-typed",
-  "ts-stylistic-typed",
-  "react-app",
-  "react",
-
-  // single plugin recommended
-  "regexp",
-  "unicorn"
-]
-
-const deprecatedRules = new Set(["react/prop-types"])
-
 function generateEffective(combined: CombinedRules) {
   const ruleNames = Object.keys(combined).sort(ruleSorter)
   let counter = 0
@@ -41,9 +32,7 @@ function generateEffective(combined: CombinedRules) {
     const values = combined[ruleName]
     const origins = Object.keys(values)
 
-    const use = effectivePriorities.find((priority) =>
-      origins.includes(priority)
-    )
+    const use = mergePriority.find((priority) => origins.includes(priority))
 
     if (use) {
       if (deprecatedRules.has(ruleName)) {
@@ -51,6 +40,11 @@ function generateEffective(combined: CombinedRules) {
       } else {
         counter++
         combined[ruleName].effective = values[use]
+      }
+    } else {
+      if (selectPresetRules.some((regex) => regex.test(ruleName))) {
+        counter++
+        combined[ruleName].effective = values[origins[0]]
       }
     }
   }
@@ -63,11 +57,13 @@ async function main() {
 
   await loadConfigs(combined)
 
-  cleanupUnusedPlugins(combined, ["vue", "flowtype", "@next"])
+  console.log("All Rules:", Object.keys(combined).length)
+
+  cleanupUnusedPlugins(combined, dropPluginRules)
   cleanupExplicitOff(combined)
   cleanupRemainingOff(combined)
 
-  console.log("All Rules:", Object.keys(combined).sort(ruleSorter).length)
+  console.log("Relevant Rules:", Object.keys(combined).length)
 
   generateEffective(combined)
 
