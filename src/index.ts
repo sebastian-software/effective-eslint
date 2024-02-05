@@ -1,4 +1,4 @@
-import { writeTable } from "./writeTable"
+import { writeTable } from "./table"
 import { CombinedRules } from "./types"
 import { loadConfigs } from "./loader"
 import {
