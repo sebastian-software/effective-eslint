@@ -138,9 +138,37 @@ async function loadConfigs() {
 
   await mergeConfig(
     getConfig({
-      extends: ["plugin:import/recommended"]
+      extends: ["plugin:import/recommended", "plugin:import/typescript"]
     }),
     "import"
+  )
+
+  await mergeConfig(
+    getConfig({
+      extends: ["plugin:unicorn/recommended"]
+    }),
+    "unicorn"
+  )
+
+  await mergeConfig(
+    getConfig({
+      extends: ["plugin:n/recommended-module"]
+    }),
+    "node"
+  )
+
+  await mergeConfig(
+    getConfig({
+      extends: ["plugin:jsdoc/recommended"]
+    }),
+    "jsdoc"
+  )
+
+  await mergeConfig(
+    getConfig({
+      extends: ["plugin:regexp/recommended"]
+    }),
+    "regexp"
   )
 
   await mergeConfig(
@@ -178,14 +206,7 @@ async function loadConfigs() {
     "remix"
   )
 
-  await mergeConfig(
-    getConfig({
-      extends: [require.resolve("./quality")]
-    }),
-    "quality"
-  )
-
-  cleanupUnusedPlugins(combined, ["vue", "flowtype", "@next", "node"])
+  cleanupUnusedPlugins(combined, ["vue", "flowtype", "@next"])
   cleanupExplicitOff(combined)
 
   const ruleNames = Object.keys(combined).sort(ruleSorter)
@@ -221,6 +242,9 @@ async function writeTable(combined: CombinedRules) {
 
   const builder = []
   builder.push("<style>")
+  builder.push("body {")
+  builder.push("  margin: 0")
+  builder.push("}")
   builder.push("table {")
   builder.push("  font-family: system-ui;")
   builder.push("  border-collapse: collapse;")
@@ -228,12 +252,14 @@ async function writeTable(combined: CombinedRules) {
   builder.push("}")
   builder.push("thead {")
   builder.push("  position: fixed;")
+  builder.push("  background: white;")
   builder.push("}")
   builder.push("tbody {")
-  builder.push("  padding-top: 2lh;")
+  builder.push("  border-top: 40px solid white;")
   builder.push("}")
   builder.push("th, td {")
-  builder.push("  border: 1px solid #555;")
+  builder.push("  border-right: 1px solid #999;")
+  builder.push("  border-bottom: 1px solid #999;")
   builder.push("  padding: 4px 8px;")
   builder.push("  font-size: 12px;")
   builder.push("  overflow: hidden;")
