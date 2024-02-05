@@ -42,21 +42,17 @@ This is the list of priorities from different sources to merge into the "effecti
 - [XO](https://github.com/xojs/eslint-config-xo): That's about 50+% of our preset. A very good, very TS-focused base for ESLint.
 - [TypeScript ESLint](https://typescript-eslint.io/linting/configs/): We are using the strict and stylistic rules, both in the type-enhanced version. A lof of rules from XO are also enabled here, but XO is generally more strict with finer-grained exceptions/options.
 - [Create React App](https://create-react-app.dev/): The preset from CRA is focused on React (and JSX-A11Y) and is a very good common-sense oriented React preset. It has practically no overlap with the previous two presets.
-- [React](https://www.npmjs.com/package/eslint-plugin-react): Set-up ad few remaining rules not part of CRA
 
 **There are also these very plugin-specific recommendations:**
 
-- [RegExp](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended rules are enabled by default
-- [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn): All recommended rules are enabled by default
-- [JSDOC](https://www.npmjs.com/package/eslint-plugin-jsdoc): Recommended rules except all `"required-*"` as in TS we use this for documentation mainly.
+- [React Plugin](https://www.npmjs.com/package/eslint-plugin-react): All recommended rules which are not already part of CRA e.g. warnings on deprecated API, usage of string refs, ... are enabled by default.
+- [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended rules of the plugin are enabled by default
+- [Unicorn Plugin](https://github.com/sindresorhus/eslint-plugin-unicorn): All recommended rules of the plugin are enabled by default
+- [JSDOC Plugin](https://www.npmjs.com/package/eslint-plugin-jsdoc): Recommended rules except all `"required-*"` are enabled by default. The reason here is that we do not like to require JSDoc as this mostly functions for documentation proposes in TypeScript projects.
 
 **Explicit unused plugins:**
 
 - [Import](https://www.npmjs.com/package/eslint-plugin-import): The import plugin does not seem as relevant in TypeScript code base anymore. Most presets do not actively enable most rules.
-
-## Contributing
-
-We welcome contributions from the community! Whether it's adding new presets, improving the existing configuration, or fixing bugs, your contributions help make `@effective/eslint` better for everyone. Please refer to our `CONTRIBUTING.md` for guidelines on how to contribute.
 
 ## License
 
