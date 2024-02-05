@@ -33,7 +33,7 @@ After installation, you can configure ESLint to use @effective/eslint by adding 
 
 ## Rules
 
-You can check the [full resolution table here](table.html) which shows which rules are active and from where.
+You can check the [full resolution table here](rules.md) which shows which rules are active and from where.
 
 ### Priorities
 
