@@ -103,37 +103,9 @@ async function loadConfigs() {
 
   await mergeConfig(
     getConfig({
-      extends: ["plugin:@typescript-eslint/recommended"]
-    }),
-    "ts"
-  )
-
-  await mergeConfig(
-    getConfig({
-      extends: ["plugin:@typescript-eslint/recommended-type-checked"]
-    }),
-    "ts-typed"
-  )
-
-  await mergeConfig(
-    getConfig({
-      extends: ["plugin:@typescript-eslint/strict"]
-    }),
-    "ts-strict"
-  )
-
-  await mergeConfig(
-    getConfig({
       extends: ["plugin:@typescript-eslint/strict-type-checked"]
     }),
     "ts-strict-typed"
-  )
-
-  await mergeConfig(
-    getConfig({
-      extends: ["plugin:@typescript-eslint/stylistic"]
-    }),
-    "ts-stylistic"
   )
 
   await mergeConfig(
@@ -173,16 +145,9 @@ async function loadConfigs() {
 
   await mergeConfig(
     getConfig({
-      extends: ["eslint-config-xo"]
+      extends: ["eslint-config-xo", "eslint-config-xo-typescript"]
     }),
     "xo"
-  )
-
-  await mergeConfig(
-    getConfig({
-      extends: ["eslint-config-xo-typescript"]
-    }),
-    "xo-ts"
   )
 
   await mergeConfig(
@@ -260,36 +225,63 @@ async function writeTable(combined: CombinedRules) {
   builder.push("  font-family: system-ui;")
   builder.push("  border-collapse: collapse;")
   builder.push("  table-layout: fixed;")
-  builder.push("  width: 100%;")
+  builder.push("}")
+  builder.push("thead {")
+  builder.push("  position: fixed;")
+  builder.push("}")
+  builder.push("tbody {")
+  builder.push("  padding-top: 2lh;")
   builder.push("}")
   builder.push("th, td {")
   builder.push("  border: 1px solid #555;")
-  builder.push("  padding: 4px;")
+  builder.push("  padding: 4px 8px;")
   builder.push("  font-size: 12px;")
   builder.push("  overflow: hidden;")
   builder.push("  text-overflow: ellipsis;")
   builder.push("  text-align: left;")
+  builder.push("  width: 80px;")
+  builder.push("  font-weight: bold;")
   builder.push("}")
-  builder.push("tr>th:first-child {")
+  builder.push("td.off {")
+  builder.push("  background: #eee;")
+  builder.push("}")
+  builder.push("td.warn {")
+  builder.push("  background: #ffe0ad;")
+  builder.push("}")
+  builder.push("td.error {")
+  builder.push("  background: #fdb5bb;")
+  builder.push("}")
+  builder.push("tr > th:first-child {")
   builder.push("  width: 200px;")
   builder.push("}")
   builder.push("</style>")
   builder.push("<table>")
+  builder.push("<thead>")
   builder.push(`<th></th>`)
   columns.forEach((origin) => {
     builder.push(`<th>${origin}</th>`)
   })
+  builder.push("</thead>")
 
+  builder.push("<tbody>")
   const ruleNames = Object.keys(combined).sort(ruleSorter)
   for (const ruleName of ruleNames) {
     builder.push("<tr>")
     builder.push(`<th>${ruleName}</th>`)
     for (const origin of columns) {
-      builder.push(`<td>${combined[ruleName][origin] ?? ""}</td>`)
+      const value = combined[ruleName][origin]
+      const level = (value instanceof Array ? value[0] : value) ?? ""
+      const label = level
+        .toString()
+        .replace(/^off$/, "✗")
+        .replace(/^warn$/, "✓")
+        .replace(/^error$/, "✓")
+      const plus = value instanceof Array && value.length > 1 ? "+" : ""
+      builder.push(`<td class="${level}">${label}${plus}</td>`)
     }
     builder.push("</tr>")
   }
-
+  builder.push("</tbody>")
   builder.push("</table>")
 
   await writeFile("table.html", builder.join("\n"))
