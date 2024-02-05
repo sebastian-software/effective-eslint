@@ -1,6 +1,6 @@
 # @effective/eslint
 
-Welcome to `@effective/eslint`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
+Welcome to `@effective/eslint`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
 
 ## Features
 
@@ -46,6 +46,8 @@ We welcome contributions from the community! Whether it's adding new presets, im
 Copyright 2024<br/>[Sebastian Software GmbH](https://www.sebastian-software.de)
 
 ## Internals
+
+You can check the [full resolution table here](table.html).
 
 ### Priorities
 
