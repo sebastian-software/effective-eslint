@@ -31,6 +31,29 @@ After installation, you can configure ESLint to use @effective/eslint by adding 
 }
 ```
 
+## Rules
+
+You can check the [full resolution table here](table.html) which shows which rules are active and from where.
+
+### Priorities
+
+This is the list of priorities from different sources to merge into the "effective" list of this preset:
+
+- [XO](https://github.com/xojs/eslint-config-xo): That's about 50+% of our preset. A very good, very TS-focused base for ESLint.
+- [TypeScript ESLint](https://typescript-eslint.io/linting/configs/): We are using the strict and stylistic rules, both in the type-enhanced version. A lof of rules from XO are also enabled here, but XO is generally more strict with finer-grained exceptions/options.
+- [Create React App](https://create-react-app.dev/): The preset from CRA is focused on React (and JSX-A11Y) and is a very good common-sense oriented React preset. It has practically no overlap with the previous two presets.
+- [React](https://www.npmjs.com/package/eslint-plugin-react): Set-up ad few remaining rules not part of CRA
+
+**There are also these very plugin-specific recommendations:**
+
+- [RegExp](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended rules are enabled by default
+- [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn): All recommended rules are enabled by default
+- [JSDOC](https://www.npmjs.com/package/eslint-plugin-jsdoc): Recommended rules except all `"required-*"` as in TS we use this for documentation mainly.
+
+**Explicit unused plugins:**
+
+- [Import](https://www.npmjs.com/package/eslint-plugin-import): The import plugin does not seem as relevant in TypeScript code base anymore. Most presets do not actively enable most rules.
+
 ## Contributing
 
 We welcome contributions from the community! Whether it's adding new presets, improving the existing configuration, or fixing bugs, your contributions help make `@effective/eslint` better for everyone. Please refer to our `CONTRIBUTING.md` for guidelines on how to contribute.
@@ -44,28 +67,3 @@ We welcome contributions from the community! Whether it's adding new presets, im
 <img src="https://cdn.rawgit.com/sebastian-software/sebastian-software-brand/0d4ec9d6/sebastiansoftware-en.svg" alt="Logo of Sebastian Software GmbH, Mainz, Germany" width="460" height="160"/>
 
 Copyright 2024<br/>[Sebastian Software GmbH](https://www.sebastian-software.de)
-
-## Internals
-
-You can check the [full resolution table here](table.html).
-
-### Priorities
-
-This is the list of priorities from different sources to merge into the "effective" list:
-
-- "xo",
-- "ts-strict-typed",
-- "ts-stylistic-typed",
-- "react-app",
-- "react",
-
-There are also these very plugin-specific recommendations:
-
-- "regexp": "recommended"
-- "unicorn": "recommended"
-- "jsdoc": Available but disabled
-- "jsx-a11y": only from CRA preset
-
-Unused plugins:
-
-- "import": Does not seem as relevant in TS code base anymore. Most presets do not actively enable most rules.
