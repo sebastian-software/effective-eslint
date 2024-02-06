@@ -123,7 +123,11 @@ export async function loadConfigs(combined: CombinedRules) {
   await mergeConfig(
     combined,
     getConfig({
-      extends: ["eslint-config-xo", "eslint-config-xo-typescript"]
+      extends: [
+        "eslint-config-xo",
+        "eslint-config-xo-react",
+        "eslint-config-xo-typescript"
+      ]
     }),
     "xo"
   )

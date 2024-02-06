@@ -5421,7 +5421,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#ffe0ad;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react-hooks/rules-of-hooks</th>
@@ -5438,7 +5438,58 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/boolean-prop-naming</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/button-has-type</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/default-props-match-prop-types</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/display-name</th>
@@ -5475,8 +5526,110 @@
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
-<th style="text-align:left">react/jsx-key</th>
+<th style="text-align:left">react/function-component-definition</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/hook-use-state</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/iframe-missing-sandbox</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-boolean-value</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-curly-brace-presence</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-fragments</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-key</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5489,11 +5642,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-no-bind</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-comment-textnodes</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5506,11 +5676,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-no-constructed-context-values</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-duplicate-props</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5523,11 +5710,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-no-script-url</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-target-blank</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5540,7 +5744,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-undef</th>
@@ -5557,11 +5761,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-no-useless-fragment</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-pascal-case</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓+</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5574,11 +5795,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/jsx-sort-props</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-uses-react</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5591,11 +5829,11 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-uses-vars</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5608,7 +5846,58 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-access-state-in-setstate</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-array-index-key</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-arrow-function-lifecycle</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-children-prop</th>
@@ -5625,11 +5914,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-danger</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-danger-with-children</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5642,7 +5948,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-deprecated</th>
@@ -5659,11 +5965,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-did-update-set-state</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-direct-mutation-state</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5676,7 +5999,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-find-dom-node</th>
@@ -5693,11 +6016,28 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-invalid-html-attribute</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-is-mounted</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5710,7 +6050,41 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-namespace</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-redundant-should-component-update</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-render-return-value</th>
@@ -5727,11 +6101,11 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-string-refs</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5744,7 +6118,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-this-in-sfc</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-typos</th>
@@ -5761,7 +6152,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-unescaped-entities</th>
@@ -5778,7 +6169,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-unknown-property</th>
@@ -5795,7 +6186,75 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-unsafe</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-unused-prop-types</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/no-unused-state</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/prefer-read-only-props</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/prop-types</th>
@@ -5812,7 +6271,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/react-in-jsx-scope</th>
@@ -5829,7 +6288,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/require-default-props</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/require-render-return</th>
@@ -5849,8 +6325,59 @@
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
+<th style="text-align:left">react/self-closing-comp</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">react/state-in-constructor</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/static-property-placement</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
 <th style="text-align:left">react/style-prop-object</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5863,7 +6390,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">react/void-dom-elements-no-children</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">regexp/confusing-quantifier</th>

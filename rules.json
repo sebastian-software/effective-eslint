@@ -1288,6 +1288,19 @@
   "react-hooks/rules-of-hooks": [
     "error"
   ],
+  "react/boolean-prop-naming": [
+    "error",
+    {
+      "validateNested": true,
+      "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+"
+    }
+  ],
+  "react/button-has-type": [
+    "error"
+  ],
+  "react/default-props-match-prop-types": [
+    "error"
+  ],
   "react/display-name": [
     "error"
   ],
@@ -1297,56 +1310,153 @@
       "allowInPropTypes": true
     }
   ],
-  "react/jsx-key": [
+  "react/function-component-definition": [
+    "error",
+    {
+      "namedComponents": "function-declaration",
+      "unnamedComponents": "arrow-function"
+    }
+  ],
+  "react/hook-use-state": [
     "error"
   ],
+  "react/iframe-missing-sandbox": [
+    "error"
+  ],
+  "react/jsx-boolean-value": [
+    "error"
+  ],
+  "react/jsx-curly-brace-presence": [
+    "error",
+    {
+      "props": "never",
+      "children": "never",
+      "propElementValues": "always"
+    }
+  ],
+  "react/jsx-fragments": [
+    "error",
+    "syntax"
+  ],
+  "react/jsx-key": [
+    "error",
+    {
+      "checkFragmentShorthand": true,
+      "checkKeyMustBeforeSpread": true,
+      "warnOnDuplicates": true
+    }
+  ],
+  "react/jsx-no-bind": [
+    "error",
+    {
+      "allowArrowFunctions": true,
+      "allowBind": false,
+      "allowFunctions": false,
+      "ignoreRefs": false,
+      "ignoreDOMComponents": false
+    }
+  ],
   "react/jsx-no-comment-textnodes": [
-    "warn"
+    "error"
+  ],
+  "react/jsx-no-constructed-context-values": [
+    "error"
   ],
   "react/jsx-no-duplicate-props": [
-    "warn"
+    "error",
+    {
+      "ignoreCase": true
+    }
+  ],
+  "react/jsx-no-script-url": [
+    "error"
   ],
   "react/jsx-no-target-blank": [
-    "warn"
+    "error",
+    {
+      "warnOnSpreadAttributes": true,
+      "forms": true,
+      "links": true
+    }
   ],
   "react/jsx-no-undef": [
     "error"
   ],
+  "react/jsx-no-useless-fragment": [
+    "error"
+  ],
   "react/jsx-pascal-case": [
-    "warn",
+    "error"
+  ],
+  "react/jsx-sort-props": [
+    "error",
     {
-      "allowAllCaps": true,
-      "ignore": []
+      "callbacksLast": true,
+      "shorthandFirst": true,
+      "noSortAlphabetically": true,
+      "reservedFirst": true,
+      "multiline": "ignore",
+      "locale": "auto"
     }
   ],
   "react/jsx-uses-react": [
-    "warn"
+    "error"
   ],
   "react/jsx-uses-vars": [
-    "warn"
+    "error"
+  ],
+  "react/no-access-state-in-setstate": [
+    "error"
+  ],
+  "react/no-array-index-key": [
+    "error"
+  ],
+  "react/no-arrow-function-lifecycle": [
+    "error"
   ],
   "react/no-children-prop": [
     "error"
   ],
+  "react/no-danger": [
+    "error"
+  ],
   "react/no-danger-with-children": [
-    "warn"
+    "error"
   ],
   "react/no-deprecated": [
     "error"
   ],
+  "react/no-did-update-set-state": [
+    "error"
+  ],
   "react/no-direct-mutation-state": [
-    "warn"
+    "error"
   ],
   "react/no-find-dom-node": [
     "error"
   ],
+  "react/no-invalid-html-attribute": [
+    "error"
+  ],
   "react/no-is-mounted": [
-    "warn"
+    "error"
+  ],
+  "react/no-namespace": [
+    "error"
+  ],
+  "react/no-redundant-should-component-update": [
+    "error"
   ],
   "react/no-render-return-value": [
     "error"
   ],
   "react/no-string-refs": [
+    "error",
+    {
+      "noTemplateLiterals": true
+    }
+  ],
+  "react/no-this-in-sfc": [
     "error"
   ],
   "react/no-typos": [
@@ -1358,17 +1468,54 @@
   "react/no-unknown-property": [
     "error"
   ],
+  "react/no-unsafe": [
+    "error"
+  ],
+  "react/no-unused-prop-types": [
+    "error"
+  ],
+  "react/no-unused-state": [
+    "error"
+  ],
+  "react/prefer-read-only-props": [
+    "error"
+  ],
   "react/prop-types": [
     "off"
   ],
   "react/react-in-jsx-scope": [
     "error"
   ],
+  "react/require-default-props": [
+    "error",
+    {
+      "forbidDefaultForRequired": true,
+      "ignoreFunctionalComponents": true
+    }
+  ],
   "react/require-render-return": [
     "error"
   ],
+  "react/self-closing-comp": [
+    "error"
+  ],
+  "react/state-in-constructor": [
+    "error",
+    "never"
+  ],
+  "react/static-property-placement": [
+    "error"
+  ],
   "react/style-prop-object": [
-    "warn"
+    "error",
+    {
+      "allow": [
+        "FormattedNumber"
+      ]
+    }
+  ],
+  "react/void-dom-elements-no-children": [
+    "error"
   ],
   "regexp/confusing-quantifier": [
     "warn"
