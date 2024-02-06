@@ -1,7 +1,7 @@
 {
-  "name": "@effective/eslint",
+  "name": "@effective/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESLint Config for TypeScript and ReactJS",
   "main": "index.js",
   "scripts": {
     "start": "ts-node --swc src/index.ts",
@@ -9,10 +9,18 @@
     "update": "ncu -ui",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "react"
+  ],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@8.15.1+sha256.245fe901f8e7fa8782d7f17d32b6a83995e2ae03984cb5b62b8949bfdc27c7b5",
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
   "devDependencies": {
     "@remix-run/eslint-config": "^2.6.0",
     "@swc/core": "^1.4.0",

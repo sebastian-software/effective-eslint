@@ -12,6 +12,8 @@ import {
   mergePriority,
   selectPresetRules
 } from "./config"
+import { Linter } from "eslint"
+import { writeFile } from "fs/promises"
 
 /** Custom sort method which sorts plugin rules separately. */
 export function ruleSorter(a: string, b: string) {
@@ -52,6 +54,22 @@ function generateEffective(combined: CombinedRules) {
   console.log("Effective Rules:", counter)
 }
 
+async function writeConfig(combined: CombinedRules) {
+  const ruleNames = Object.keys(combined).sort(ruleSorter)
+
+  const rules: Record<string, Linter.RuleEntry> = {}
+  ruleNames.forEach((ruleName) => {
+    const values = combined[ruleName]
+    const effective = values.effective
+
+    if (effective != null) {
+      rules[ruleName] = effective
+    }
+  })
+
+  await writeFile("rules.json", JSON.stringify(rules, null, 2))
+}
+
 async function main() {
   const combined: CombinedRules = {}
 
@@ -69,6 +87,9 @@ async function main() {
 
   console.log("Writing table...")
   await writeTable(combined)
+
+  console.log("Writing config...")
+  await writeConfig(combined)
 }
 
 void main()
