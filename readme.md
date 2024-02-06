@@ -1,6 +1,14 @@
-# @effective/eslint-config
+# Effective / ESLint-Config
+
+[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]
 
 Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
+
+[sponsor]: https://www.sebastian-software.de
+[sponsor-img]: https://badgen.net/badge/Sponsored%20by/Sebastian%20Software/c41e54
+[npm]: https://www.npmjs.com/package/@effective/eslint-config
+[npm-downloads-img]: https://badgen.net/npm/dm/@effective/eslint-config
+[npm-version-img]: https://badgen.net/npm/v/@effective/eslint-config
 
 ## Features
 
