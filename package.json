@@ -4,10 +4,15 @@
   "description": "ESLint Config for TypeScript and ReactJS",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node --swc src/index.ts",
+    "build": "ts-node --swc src/index.ts",
     "check": "tsc --noEmit",
     "update": "ncu -ui",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "is-clean": "git diff-files --quiet",
+    "test": "npm run build && npm run is-clean",
+    "prepare": "npm run test",
+    "release": "git push && release-it --ci patch",
+    "release:minor": "git push && release-it --ci minor",
+    "release:major": "git push && release-it --ci major"
   },
   "keywords": [
     "eslint",
@@ -15,8 +20,12 @@
     "typescript",
     "react"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Sebastian Werner",
+    "email": "s.werner@sebastian-software.de",
+    "url": "http://sebastian-software.de/werner"
+  },
+  "license": "Apache-2.0",
   "packageManager": "pnpm@8.15.1+sha256.245fe901f8e7fa8782d7f17d32b6a83995e2ae03984cb5b62b8949bfdc27c7b5",
   "peerDependencies": {
     "eslint": ">= 8"
@@ -34,6 +43,7 @@
     "eslint-config-xo-typescript": "^2.0.0",
     "npm-check-updates": "^16.14.14",
     "prettier": "^3.2.5",
+    "release-it": "^17.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
