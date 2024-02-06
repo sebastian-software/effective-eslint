@@ -3,6 +3,10 @@
   "version": "5.0.1",
   "description": "ESLint Config for TypeScript and ReactJS",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "rules.json"
+  ],
   "scripts": {
     "build": "ts-node --swc src/index.ts",
     "check": "tsc --noEmit",
