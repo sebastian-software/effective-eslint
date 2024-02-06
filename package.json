@@ -9,7 +9,7 @@
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
     "test": "npm run build && npm run is-clean",
-    "prepare": "npm run test",
+    "prepare": "npm run build",
     "release": "git push && release-it --ci patch",
     "release:minor": "git push && release-it --ci minor",
     "release:major": "git push && release-it --ci major"
