@@ -62,6 +62,13 @@
   "guard-for-in": [
     "error"
   ],
+  "logical-assignment-operators": [
+    "error",
+    "always",
+    {
+      "enforceForIfStatements": true
+    }
+  ],
   "max-depth": [
     "warn"
   ],
@@ -240,12 +247,15 @@
     "error"
   ],
   "no-new-object": [
-    "error"
+    "warn"
   ],
   "no-new-wrappers": [
     "error"
   ],
   "no-nonoctal-decimal-escape": [
+    "error"
+  ],
+  "no-object-constructor": [
     "error"
   ],
   "no-octal": [
@@ -268,7 +278,15 @@
   ],
   "no-restricted-globals": [
     "error",
-    "event"
+    "event",
+    {
+      "name": "atob",
+      "message": "This API is deprecated. Use https://github.com/sindresorhus/uint8array-extras instead."
+    },
+    {
+      "name": "btoa",
+      "message": "This API is deprecated. Use https://github.com/sindresorhus/uint8array-extras instead."
+    }
   ],
   "no-restricted-properties": [
     "error",
@@ -444,6 +462,9 @@
   "prefer-numeric-literals": [
     "error"
   ],
+  "prefer-object-has-own": [
+    "error"
+  ],
   "prefer-object-spread": [
     "error"
   ],
@@ -581,6 +602,12 @@
         "null": {
           "message": "Use `undefined` instead. See: https://github.com/sindresorhus/meta/issues/7",
           "fixWith": "undefined"
+        },
+        "Buffer": {
+          "message": "Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer",
+          "suggest": [
+            "Uint8Array"
+          ]
         },
         "[]": "Don't use the empty array type `[]`. It only allows empty arrays. Use `SomeType[]` instead.",
         "[[]]": "Don't use `[[]]`. It only allows an array with a single element which is an empty array. Use `SomeType[][]` instead.",
@@ -987,6 +1014,9 @@
   "@typescript-eslint/prefer-as-const": [
     "error"
   ],
+  "@typescript-eslint/prefer-find": [
+    "error"
+  ],
   "@typescript-eslint/prefer-for-of": [
     "error"
   ],
@@ -1062,7 +1092,11 @@
     "error"
   ],
   "@typescript-eslint/switch-exhaustiveness-check": [
-    "error"
+    "error",
+    {
+      "allowDefaultCaseForExhaustiveSwitch": false,
+      "requireDefaultForNonUnion": true
+    }
   ],
   "@typescript-eslint/triple-slash-reference": [
     "error",
@@ -1520,9 +1554,6 @@
     "error"
   ],
   "unicorn/catch-error-name": [
-    "error"
-  ],
-  "unicorn/consistent-destructuring": [
     "error"
   ],
   "unicorn/consistent-function-scoping": [
