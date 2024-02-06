@@ -1,33 +1,33 @@
-# @effective/eslint
+# @effective/eslint-config
 
-Welcome to `@effective/eslint`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
+Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
 
 ## Features
 
 - **Comprehensive Configurations:** Leverage a unified ESLint configuration that integrates the best aspects of various popular presets.
-- **Fully Customizable:** While `@effective/eslint` provides a robust starting point, we understand one size doesn't fit all. Therefore, you can easily disable or tweak individual rules to perfectly align with your project's needs.
+- **Fully Customizable:** While `@effective/eslint-config` provides a robust starting point, we understand one size doesn't fit all. Therefore, you can easily disable or tweak individual rules to perfectly align with your project's needs.
 - **Easy to Use:** Get up and running with minimal setup, allowing you to focus on what's important - writing great code.
 - **Community-Driven:** Contributions are welcome! Help us refine and expand our configurations to cater to an even broader spectrum of coding standards and practices.
 
 ## Installation
 
-To use `@effective/eslint` in your project, you need to install it via `npm`, `yarn` or `pnpm`. Ensure you have ESLint installed in your project; if not, you can install it alongside this package.
+To use `@effective/eslint-config` in your project, you need to install it via `npm`, `yarn` or `pnpm`. Ensure you have ESLint installed in your project; if not, you can install it alongside this package.
 
 ```bash
-npm install @effective/eslint eslint --save-dev
+npm install @effective/eslint-config eslint --save-dev
 # or
-yarn add @effective/eslint eslint --dev
+yarn add @effective/eslint-config eslint --dev
 # or
-pnpm add @effective/eslint eslint --dev
+pnpm add @effective/eslint-config eslint --dev
 ```
 
 ## Usage
 
-After installation, you can configure ESLint to use @effective/eslint by adding it to your .eslintrc file or the ESLint configuration section of your package.json.
+After installation, you can configure ESLint to use @effective/eslint-config by adding it to your .eslintrc file or the ESLint configuration section of your package.json.
 
 ```json
 {
-  "extends": "@effective/eslint"
+  "extends": "@effective"
 }
 ```
 
