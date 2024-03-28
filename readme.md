@@ -51,11 +51,22 @@ You can check the [full resolution table here](rules.md) which shows which rules
 
 All starts with `eslint:recommended` the built-in recommendations list from [ESLint](https://eslint.org).
 
+### Collections
+
 Then we add rules from the following rule collections:
 
 1. [XO](https://github.com/xojs/eslint-config-xo): That's about 50+% of our preset. A very good, very TS-focused base preset.
 2. [TypeScript ESLint](https://typescript-eslint.io/linting/configs/): We are using the strict and stylistic rules, both in the type-enhanced version. A lof of rules from XO are also enabled here, but XO is generally more strict with finer-grained exceptions/options.
-3. [Create React App](https://create-react-app.dev/): The preset from CRA is focused on React (and JSX-A11Y) and is a very good common-sense oriented React preset. It has practically no overlap with the previous two presets.
+
+### Framework Collections
+
+Learning from the best means also inheriting from the most popular React frameworks:
+
+1. [Create React App](https://create-react-app.dev/): The preset from CRA is focused on React (and JSX-A11Y) and is a very good common-sense oriented React preset.
+2. [NextJS](https://www.npmjs.com/package/eslint-config-next): This does only include the framework-unspecific rules (without `@next`-plugin rules)
+3. [Remix](https://www.npmjs.com/package/@remix-run/eslint-config)
+
+### Plugins
 
 We also add recommended rules from these plugins:
 
@@ -66,11 +77,17 @@ We also add recommended rules from these plugins:
 5. [JSDoc](https://github.com/gajus/eslint-plugin-jsdoc): All recommended rules of the plugin are enabled by default with the exception of all rules starting with `required-` as in TypeScript project its typically not required to add all the little details in JSDOC but rely on the actual type engine instead. This means that the rules are configured to check existing JSDoc but do not require to add JSDoc for all params, return values, etc.
 6. [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended rules of the plugin are enabled by default.
 
-A few namespaces are globally blocked (independent from the preset):
+### Focus: React/TypeScript
+
+A few namespaces/plugins are globally blocked (independent from the origin collection/plugin):
 
 1. `vue/\*`: Effective ESLint is focussed on ReactJS - therefor all Vue related rules are dropped.
 2. `flowtype/\*`: Effective ESLint is focussed on TypeScript - therefor all Flowtype related rules are dropped.
 3. `@next/\*`: Effective ESLint omits adding frameworks e.g. NextJS specific rules as they might conflict when used in other environments.
+
+### Disabled Formatting
+
+We use the Prettier config to disable all rules which have stylistic/formatting affects which conflict with Prettier's built-in behavior. This affects both ESLint's core rules but also rules from the React and TypeScript plugin.
 
 **Explicitly unused plugins:**
 
