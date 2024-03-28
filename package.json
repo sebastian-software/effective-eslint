@@ -30,38 +30,38 @@
     "url": "http://sebastian-software.de/werner"
   },
   "license": "Apache-2.0",
-  "packageManager": "pnpm@8.15.1+sha256.245fe901f8e7fa8782d7f17d32b6a83995e2ae03984cb5b62b8949bfdc27c7b5",
+  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589",
   "peerDependencies": {
     "eslint": ">= 8"
   },
   "devDependencies": {
-    "@remix-run/eslint-config": "^2.6.0",
-    "@swc/core": "^1.4.0",
-    "@types/eslint": "^8.56.2",
-    "@types/node": "^20.11.16",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^14.1.0",
+    "@remix-run/eslint-config": "^2.8.1",
+    "@swc/core": "^1.4.11",
+    "@types/eslint": "^8.56.6",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-config-xo": "^0.44.0",
     "eslint-config-xo-react": "^0.27.0",
-    "eslint-config-xo-typescript": "^2.0.0",
-    "npm-check-updates": "^16.14.14",
+    "eslint-config-xo-typescript": "^4.0.0",
+    "npm-check-updates": "^16.14.18",
     "prettier": "^3.2.5",
-    "release-it": "^17.0.3",
+    "release-it": "^17.1.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
-    "eslint-plugin-jsdoc": "^48.0.5",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint-plugin-jsdoc": "^48.2.2",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-regexp": "^2.2.0",
-    "eslint-plugin-unicorn": "^51.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "eslint-plugin-regexp": "^2.4.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-unused-imports": "^3.1.0"
   }
 }

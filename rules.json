@@ -33,9 +33,6 @@
   "complexity": [
     "warn"
   ],
-  "default-case": [
-    "error"
-  ],
   "default-case-last": [
     "error"
   ],
@@ -997,6 +994,9 @@
   "@typescript-eslint/non-nullable-type-assertion-style": [
     "error"
   ],
+  "@typescript-eslint/only-throw-error": [
+    "error"
+  ],
   "@typescript-eslint/padding-line-between-statements": [
     "error",
     {
@@ -1114,6 +1114,9 @@
     {
       "ignoreDifferentlyNamedParameters": true
     }
+  ],
+  "@typescript-eslint/use-unknown-in-catch-callback-variable": [
+    "error"
   ],
   "import/first": [
     "error"
