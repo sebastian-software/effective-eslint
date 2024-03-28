@@ -2,7 +2,7 @@
 
 [![Sponsored by][sponsor-img]][sponsor] [![GitHub][github-license-img]][github] [![GitHub][github-stars-img]][github] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]
 
-Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
+Introducing `@effective/eslint-config`—your definitive ESLint configuration package. By synthesizing the most effective practices and presets from industry-leading sources including React, XO, and TypeScript ESLint, `Effective ESLint` offers a premier linting solution that stands on the shoulders of giants. This configuration is meticulously crafted to enhance your development workflow, ensuring that your code is not only clean and efficient but also meets the highest standards of coding excellence.
 
 [sponsor]: https://www.sebastian-software.de
 [sponsor-img]: https://badgen.net/badge/Sponsored%20by/Sebastian%20Software/c41e54
@@ -13,13 +13,13 @@ Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint con
 [github-stars-img]: https://badgen.net/github/stars/sebastian-software/effective-eslint-config
 [github-license-img]: https://badgen.net/github/license/sebastian-software/effective-eslint-config
 
-## Features
+## Key Features
 
-- **Comprehensive Configurations:** Leverage a unified ESLint configuration that integrates the best aspects of various popular presets.
-- **Fully Customizable:** While `@effective/eslint-config` provides a robust starting point, we understand one size doesn't fit all. Therefore, you can easily disable or tweak individual rules to perfectly align with your project's needs.
-- **Easy to Use:** Get up and running with minimal setup, allowing you to focus on what's important - writing great code.
-- **Efficient**: As the preset is merging all the listed presets into one new preset it is more efficient to handle for ESLint and results into faster startups of the linter process.
-- **Community-Driven:** Contributions are welcome! Help us refine and expand our configurations to cater to an even broader spectrum of coding standards and practices.
+- **Comprehensive Configurations:** `Effective ESLint` harmonizes diverse, top-tier ESLint presets into a single, cohesive configuration, providing you with the best of what the ESLint community has to offer.
+- **Fully Customizable:** Recognizing the unique needs of different projects, `Effective ESLint` is designed for flexibility. Easily adjust or disable specific rules to tailor the configuration to your project's requirements, ensuring an optimal balance between guideline enforcement and creative freedom.
+- **Streamlined Integration:** Simplify your setup process with `Effective ESLint`. Our configuration is engineered for ease of use, enabling you to quickly integrate and get started with refining your codebase without the hassle of complex configuration.
+- **Enhanced Efficiency:** By amalgamating multiple presets into one, `Effective ESLint` optimizes the linting process. This integration not only simplifies management but also accelerates the startup time of the linter, making your development process faster and more efficient.
+- **Community-Driven Development:** At the heart of `Effective ESLint` is a commitment to continuous improvement and inclusivity. We welcome contributions from the community to help us evolve and enrich our configurations, ensuring they remain at the forefront of coding standards and practices.
 
 ## Installation
 
@@ -39,7 +39,11 @@ After installation, you can configure ESLint to use @effective/eslint-config by 
 
 ```json
 {
-  "extends": "@effective"
+  "extends": "@effective",
+  "rules": {
+    // disable or customize as needed
+    ...
+  }
 }
 ```
 
