@@ -37,7 +37,7 @@ pnpm add @effective/eslint-config eslint --dev
 
 After installation, you can configure ESLint to use @effective/eslint-config by adding it to your .eslintrc file or the ESLint configuration section of your package.json.
 
-```json
+```js
 {
   "extends": "@effective",
   "rules": {
