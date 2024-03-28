@@ -53,45 +53,45 @@ All starts with `eslint:recommended` the built-in recommendations list from [ESL
 
 ### Collections
 
-Then we add rules from the following rule collections:
+Effective ESLint incorporates rules from the following collections to establish a comprehensive linting foundation:
 
-1. [XO](https://github.com/xojs/eslint-config-xo): That's about 50+% of our preset. A very good, very TS-focused base preset.
-2. [TypeScript ESLint](https://typescript-eslint.io/linting/configs/): We are using the strict and stylistic rules, both in the type-enhanced version. A lof of rules from XO are also enabled here, but XO is generally more strict with finer-grained exceptions/options.
+1. [XO](https://github.com/xojs/eslint-config-xo): Constituting over 50% of Effective ESLint's preset, XO provides a robust, TypeScript-centric base. It stands out for its thorough approach and specialized focus on TypeScript.
+2. [TypeScript ESLint](https://typescript-eslint.io/linting/configs/): Effective ESLint utilizes the strict and stylistic rules from TypeScript ESLint, opting for the type-enhanced versions. While there is significant overlap with XO rules, XO typically enforces stricter standards, offering finer-grained exceptions and options.
 
 ### Framework Collections
 
-Learning from the best means also inheriting from the most popular React frameworks:
+Effective ESLint embraces best practices by integrating presets from leading React frameworks:
 
-1. [Create React App](https://create-react-app.dev/): The preset from CRA is focused on React (and JSX-A11Y) and is a very good common-sense oriented React preset.
-2. [NextJS](https://www.npmjs.com/package/eslint-config-next): This does only include the framework-unspecific rules (without `@next`-plugin rules)
-3. [Remix](https://www.npmjs.com/package/@remix-run/eslint-config)
+1. [Create React App](https://create-react-app.dev/): Focused on React (including JSX-A11Y), the CRA preset offers a well-rounded, common-sense-oriented foundation for React development.
+2. [NextJS](https://www.npmjs.com/package/eslint-config-next): Specializes in framework-agnostic rules, specifically excluding `@next/plugin`-specific rules.
+3. [Remix](https://www.npmjs.com/package/@remix-run/eslint-config): Enhances Effective ESLint's presets with standards from the Remix framework.
 
 ### Plugins
 
-We also add recommended rules from these plugins:
+Effective ESLint is further enriched by recommended rules from these plugins:
 
-1. [React Plugin](https://www.npmjs.com/package/eslint-plugin-react) and [React Hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): All recommended rules which are not already part of CRA e.g. warnings on deprecated API, usage of string refs, ... are enabled by default.
-2. [JSX-A11Y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y): All recommended rules of the plugin are enabled by default.
-3. [Unicorn Plugin](https://github.com/sindresorhus/eslint-plugin-unicorn): All recommended rules of the plugin are enabled by default.
-4. [Node](https://www.npmjs.com/package/eslint-plugin-n): Maintained fork of the original NodeJS plugin. All recommended ESM NodeJS rules are enabled by default.
-5. [JSDoc](https://github.com/gajus/eslint-plugin-jsdoc): All recommended rules of the plugin are enabled by default with the exception of all rules starting with `required-` as in TypeScript project its typically not required to add all the little details in JSDOC but rely on the actual type engine instead. This means that the rules are configured to check existing JSDoc but do not require to add JSDoc for all params, return values, etc.
-6. [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended rules of the plugin are enabled by default.
+1. [React Plugin](https://www.npmjs.com/package/eslint-plugin-react) & [React Hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): Integrates all recommended rules not already part of CRA, including warnings on deprecated APIs, the use of string refs, and more.
+2. [JSX-A11Y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y): Adopts all recommended accessibility rules from the JSX-A11Y plugin.
+3. [Unicorn Plugin](https://github.com/sindresorhus/eslint-plugin-unicorn): Implements all recommended practices from the Unicorn plugin to promote superior coding patterns.
+4. [Node](https://www.npmjs.com/package/eslint-plugin-n): A maintained fork of the original Node.js plugin, with all recommended ESM Node.js rules enabled.
+5. [JSDoc](https://github.com/gajus/eslint-plugin-jsdoc): Enables all recommended JSDoc rules, excluding those starting with `required-`. This reflects the TypeScript project's reliance on the type system over extensive JSDoc comments.
+6. [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended RegExp rules are enabled to ensure expressions are both efficient and error-free.
 
 ### Focus: React/TypeScript
 
-A few namespaces/plugins are globally blocked (independent from the origin collection/plugin):
+Effective ESLint globally excludes specific namespaces/plugins to maintain focus and avoid conflicts:
 
-1. `vue/\*`: Effective ESLint is focussed on ReactJS - therefor all Vue related rules are dropped.
-2. `flowtype/\*`: Effective ESLint is focussed on TypeScript - therefor all Flowtype related rules are dropped.
-3. `@next/\*`: Effective ESLint omits adding frameworks e.g. NextJS specific rules as they might conflict when used in other environments.
+1. `vue/*`: Tailored for ReactJS, hence all Vue-related rules are excluded.
+2. `flowtype/*`: Dedicated to TypeScript, omitting all Flowtype-related rules.
+3. `@next/*`: Framework-specific rules, such as those from NextJS, are avoided to prevent conflicts in diverse environments.
 
 ### Disabled Formatting
 
-We use the Prettier config to disable all rules which have stylistic/formatting affects which conflict with Prettier's built-in behavior. This affects both ESLint's core rules but also rules from the React and TypeScript plugin.
+Effective ESLint employs Prettier's configuration to disable any stylistic/formatting rules that could conflict with Prettier's guidelines. This encompasses core ESLint rules and those from React and TypeScript plugins.
 
-**Explicitly unused plugins:**
+**Explicitly Unused Plugins:**
 
-- [Import](https://www.npmjs.com/package/eslint-plugin-import): The import plugin does not seem as relevant in TypeScript code base anymore. Most presets do not actively enable most rules.
+- [Import](https://www.npmjs.com/package/eslint-plugin-import): Given its reduced relevance in TypeScript projects, the import plugin is not utilized in most presets.
 
 ## License
 
