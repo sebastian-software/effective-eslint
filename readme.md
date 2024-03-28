@@ -10,7 +10,7 @@ Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint con
 [npm-downloads-img]: https://badgen.net/npm/dm/@effective/eslint-config
 [npm-version-img]: https://badgen.net/npm/v/@effective/eslint-config
 [github]: https://github.com/sebastian-software/effective-eslint-config
-[github-img]: https://badgen.net/github
+[github-img]: https://badgen.net/github/stars/@effective/eslint-config
 
 ## Features
 
