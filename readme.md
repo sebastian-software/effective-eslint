@@ -1,6 +1,6 @@
 # Effective / ESLint-Config
 
-[![Sponsored by][sponsor-img]][sponsor] [![GitHub][github-img]][github] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]
+[![Sponsored by][sponsor-img]][sponsor] [![GitHub][github-license-img]][github] [![GitHub][github-stars-img]][github] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]
 
 Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint configurations. Standing on the shoulders of giants, this package amalgamates the best practices and presets from renowned sources such as React, XO, ESLint-TypeScript, Next.js, and more, to deliver a best-of-breed ESLint configuration. It's designed to streamline your development process, ensuring your code is clean, efficient, and adheres to the highest standards of quality.
 
@@ -10,7 +10,8 @@ Welcome to `@effective/eslint-config`, the one-stop-shop for all your ESLint con
 [npm-downloads-img]: https://badgen.net/npm/dm/@effective/eslint-config
 [npm-version-img]: https://badgen.net/npm/v/@effective/eslint-config
 [github]: https://github.com/sebastian-software/effective-eslint-config
-[github-img]: https://badgen.net/github/stars/@effective/eslint-config
+[github-stars-img]: https://badgen.net/github/stars/sebastian-software/effective-eslint-config
+[github-license-img]: https://badgen.net/github/license/sebastian-software/effective-eslint-config
 
 ## Features
 
