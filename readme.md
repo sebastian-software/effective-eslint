@@ -95,7 +95,7 @@ Effective ESLint employs Prettier's configuration to disable any stylistic/forma
 
 **Explicitly Unused Plugins:**
 
-- [Import](https://www.npmjs.com/package/eslint-plugin-import): Given its reduced relevance in TypeScript projects, the import plugin is not utilized in most presets.
+- [Import](https://www.npmjs.com/package/eslint-plugin-import): Given its reduced relevance in TypeScript projects, the import plugin is not utilized in most presets nowadays. The [enhanced TS-fork](https://github.com/un-ts/eslint-plugin-import-x) might be a good alternative. It just seems that most rules are more targeted to legacy code than modern TS-code.
 
 ## License
 
