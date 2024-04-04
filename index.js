@@ -14,6 +14,10 @@ import simpleImportSortPlugin from "eslint-plugin-simple-import-sort"
 import unicornPlugin from "eslint-plugin-unicorn"
 import unusedImportsPlugin from "eslint-plugin-unused-imports"
 
+import importAddonRules from "./addon/import.js"
+import qualityAddonRules from "./addon/quality.js"
+import reactAddonRules from "./addon/react.js"
+
 const plugins = {
   "@typescript-eslint": typeScriptPlugin,
   jsdoc: jsdocPlugin,
@@ -42,4 +46,14 @@ export const base = {
 export const main = {
   ...base,
   rules
+}
+
+export const recommended = {
+  ...main,
+  rules: {
+    ...rules,
+    ...importAddonRules,
+    ...qualityAddonRules,
+    ...reactAddonRules
+  }
 }
