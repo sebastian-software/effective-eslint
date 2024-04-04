@@ -13,7 +13,7 @@ import {
   selectPresetRules
 } from "./config"
 import { Linter } from "eslint"
-import { writeFile } from "fs/promises"
+import { mkdir, rm, rmdir, writeFile } from "fs/promises"
 
 /** Custom sort method which sorts plugin rules separately. */
 export function ruleSorter(a: string, b: string) {
@@ -67,12 +67,19 @@ async function writeConfig(combined: CombinedRules) {
     }
   })
 
-  await writeFile("rules.json", JSON.stringify(rules, null, 2))
+  const json = JSON.stringify(rules, null, 2)
+  const wrapped = `
+    const rules = ${json};
+    export default rules;
+  `
+
+  return wrapped
 }
 
 async function main() {
   const combined: CombinedRules = {}
 
+  console.log("Loading...")
   await loadConfigs(combined)
 
   console.log("All Rules:", Object.keys(combined).length)
@@ -85,11 +92,16 @@ async function main() {
 
   generateEffective(combined)
 
+  await rm("./generated", { recursive: true, force: true })
+  await mkdir("./generated", { recursive: true })
+
   console.log("Writing table...")
-  await writeTable(combined)
+  const table = await writeTable(combined)
+  await writeFile("./generated/rules.md", table)
 
   console.log("Writing config...")
-  await writeConfig(combined)
+  const config = await writeConfig(combined)
+  await writeFile("./generated/rules.js", config)
 }
 
 void main()

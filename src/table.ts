@@ -56,5 +56,5 @@ export async function writeTable(combined: CombinedRules) {
   builder.push("</tbody>")
   builder.push("</table>")
 
-  await writeFile("rules.md", builder.join("\n"))
+  return builder.join("\n")
 }
