@@ -1,5 +1,7 @@
-import { ESLint, Linter } from "eslint"
-import { CombinedRules } from "./types"
+import type { Linter } from "eslint";
+import { ESLint } from "eslint"
+
+import type { CombinedRules } from "./types"
 
 async function getConfig(config: ESLint.ConfigData) {
   const linter = new ESLint({

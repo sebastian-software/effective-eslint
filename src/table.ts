@@ -1,6 +1,5 @@
-import { writeFile } from "fs/promises"
 import { ruleSorter } from "."
-import { CombinedRules } from "./types"
+import type { CombinedRules } from "./types"
 
 export function getAllOrigins(combined: CombinedRules) {
   const origins = new Set<string>()

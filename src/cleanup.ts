@@ -1,5 +1,6 @@
-import { Linter } from "eslint"
-import { CombinedRules } from "./types"
+import type { Linter } from "eslint"
+
+import type { CombinedRules } from "./types"
 
 function isRuleOff(rule: Linter.RuleEntry) {
   return rule instanceof Array ? rule[0] === "off" : rule === "off"

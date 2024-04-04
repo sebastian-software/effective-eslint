@@ -1,6 +1,6 @@
-import { writeTable } from "./table"
-import { CombinedRules } from "./types"
-import { loadConfigs } from "./loader"
+import type { Linter } from "eslint"
+import { mkdir, rm, writeFile } from "fs/promises"
+
 import {
   cleanupExplicitOff,
   cleanupRemainingOff,
@@ -12,8 +12,9 @@ import {
   mergePriority,
   selectPresetRules
 } from "./config"
-import { Linter } from "eslint"
-import { mkdir, rm, rmdir, writeFile } from "fs/promises"
+import { loadConfigs } from "./loader"
+import { writeTable } from "./table"
+import type { CombinedRules } from "./types"
 
 /** Custom sort method which sorts plugin rules separately. */
 export function ruleSorter(a: string, b: string) {
