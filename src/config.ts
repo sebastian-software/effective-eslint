@@ -14,7 +14,19 @@ export const mergePriority = [
 
 export const deprecatedRules = new Set(["react/prop-types"])
 
-export const dropPluginRules = ["vue", "flowtype", "@next"]
+export const dropPluginRules = [
+  // Preset is React focused
+  "vue",
+
+  // Preset is TypeScript focused
+  "flowtype",
+
+  // Do not include framework specific rules
+  "@next",
+
+  // Drop quite slow import plugin which has no major benefits TypeScript code
+  "import"
+]
 
 // Choose rules from existing presets to enable e.g. jsdoc, ...
 export const selectPresetRules = [

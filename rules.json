@@ -1118,18 +1118,6 @@
   "@typescript-eslint/use-unknown-in-catch-callback-variable": [
     "error"
   ],
-  "import/first": [
-    "error"
-  ],
-  "import/no-amd": [
-    "error"
-  ],
-  "import/no-anonymous-default-export": [
-    "warn"
-  ],
-  "import/no-webpack-loader-syntax": [
-    "error"
-  ],
   "jsdoc/check-access": [
     "warn"
   ],

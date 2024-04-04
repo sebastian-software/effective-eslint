@@ -1,18 +1,12 @@
 export default {
-  // Possible alternative solution: https://github.com/lydell/eslint-plugin-simple-import-sort
-  "sort-imports": ["error", { ignoreDeclarationSort: true }],
-  "import/order": [
+  "@typescript-eslint/consistent-type-imports": [
     "error",
     {
-      alphabetize: { order: "asc" },
-      pathGroups: [
-        { pattern: "~**", group: "internal" },
-        { pattern: "~**/**", group: "internal" }
-      ],
-      groups: ["builtin", "external", "internal"],
-      "newlines-between": "always"
+      // plugin defaults
+      prefer: "type-imports",
+      fixStyle: "separate-type-imports"
     }
   ],
-
-  "unused-imports/no-unused-imports": "error"
+  "unused-imports/no-unused-imports": "error",
+  "simple-import-sort/imports": "error"
 }
