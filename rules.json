@@ -1733,6 +1733,9 @@
   "unicorn/no-abusive-eslint-disable": [
     "error"
   ],
+  "unicorn/no-anonymous-default-export": [
+    "error"
+  ],
   "unicorn/no-array-callback-reference": [
     "error"
   ],
@@ -1749,6 +1752,9 @@
     "error"
   ],
   "unicorn/no-await-expression-member": [
+    "error"
+  ],
+  "unicorn/no-await-in-promise-methods": [
     "error"
   ],
   "unicorn/no-console-spaces": [
@@ -1791,6 +1797,9 @@
     "error"
   ],
   "unicorn/no-process-exit": [
+    "error"
+  ],
+  "unicorn/no-single-promise-in-promise-methods": [
     "error"
   ],
   "unicorn/no-static-only-class": [
