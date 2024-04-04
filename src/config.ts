@@ -9,10 +9,13 @@ export const mergePriority = [
   // single plugin recommended
   "regexp",
   "unicorn",
-  "node"
+  "n"
 ]
 
-export const deprecatedRules = new Set(["react/prop-types"])
+export const deprecatedRules = new Set([
+  // With TypeScript we do not use PropTypes anymore
+  "react/prop-types"
+])
 
 export const dropPluginRules = [
   // Preset is React focused
