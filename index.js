@@ -1,4 +1,4 @@
-import rules from "./generated/rules"
+import rules from "./generated/rules.js"
 
 import typeScriptParser from "@typescript-eslint/parser"
 

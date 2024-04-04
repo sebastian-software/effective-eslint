@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "tsx src/index.ts",
-    "check": "tsc --noEmit",
+    "check": "tsc",
+    "lint": "eslint .",
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
     "test": "npm run build && npm run is-clean",
