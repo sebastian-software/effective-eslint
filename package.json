@@ -3,12 +3,13 @@
   "version": "5.1.0",
   "description": "ESLint Config for TypeScript and ReactJS",
   "main": "index.js",
+  "type": "module",
   "files": [
     "index.js",
     "rules.json"
   ],
   "scripts": {
-    "build": "ts-node --swc src/index.ts",
+    "build": "tsx src/index.ts",
     "check": "tsc --noEmit",
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
@@ -36,7 +37,6 @@
   },
   "devDependencies": {
     "@remix-run/eslint-config": "^2.8.1",
-    "@swc/core": "^1.4.11",
     "@types/eslint": "^8.56.7",
     "@types/node": "^20.12.4",
     "eslint": "^8.57.0",
@@ -49,7 +49,7 @@
     "npm-check-updates": "^16.14.18",
     "prettier": "^3.2.5",
     "release-it": "^17.1.1",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.7.2",
     "typescript": "^5.4.3"
   },
   "dependencies": {
