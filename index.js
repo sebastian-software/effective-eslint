@@ -18,7 +18,7 @@ const plugins = {
   "@typescript-eslint": typeScriptPlugin,
   jsdoc: jsdocPlugin,
   "jsx-a11y": jsxA11yPlugin,
-  node: nodePlugin,
+  n: nodePlugin,
   react: reactPlugin,
   "react-hooks": reactHooksPlugin,
   regexp: regexpPlugin,
