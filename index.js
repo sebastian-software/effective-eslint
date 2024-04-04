@@ -32,7 +32,10 @@ export default [
     files: ["**/*.ts", "**/*.tsx", "**/*.mts"],
     languageOptions: {
       parser: typeScriptParser,
-      parserOptions: { sourceType: "module" }
+      parserOptions: {
+        sourceType: "module",
+        project: `${process.cwd()}/tsconfig.json`
+      }
     },
     plugins,
     rules
