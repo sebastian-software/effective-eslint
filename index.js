@@ -27,17 +27,19 @@ const plugins = {
   "unused-imports": unusedImportsPlugin
 }
 
-export default [
-  {
-    files: ["**/*.ts", "**/*.tsx", "**/*.mts"],
-    languageOptions: {
-      parser: typeScriptParser,
-      parserOptions: {
-        sourceType: "module",
-        project: `${process.cwd()}/tsconfig.json`
-      }
-    },
-    plugins,
-    rules
-  }
-]
+export const base = {
+  files: ["**/*.ts", "**/*.tsx", "**/*.mts"],
+  languageOptions: {
+    parser: typeScriptParser,
+    parserOptions: {
+      sourceType: "module",
+      project: `${process.cwd()}/tsconfig.json`
+    }
+  },
+  plugins
+}
+
+export const main = {
+  ...base,
+  rules
+}
