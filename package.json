@@ -12,6 +12,8 @@
     "build": "tsx src/index.ts",
     "check": "tsc",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write .",
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
     "test": "npm run build && npm run is-clean",
