@@ -5,11 +5,9 @@ import qualityRules from "./addon/quality.js"
 import reactRules from "./addon/react.js"
 
 export default [
+  ...base,
   {
-    ...base[0],
     rules: {
-      ...base.rules,
-
       ...importRules,
       ...qualityRules,
       ...reactRules
