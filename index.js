@@ -1,4 +1,4 @@
-import rules from "./rules.json"
+import rules from "./generated/rules"
 
 import typeScriptParser from "@typescript-eslint/parser"
 
@@ -29,8 +29,11 @@ const plugins = {
 
 export default [
   {
-    parser: typeScriptParser,
-    parserOptions: { sourceType: "module" },
+    files: ["**/*.ts", "**/*.tsx", "**/*.mts"],
+    languageOptions: {
+      parser: typeScriptParser,
+      parserOptions: { sourceType: "module" }
+    },
     plugins,
     rules
   }
