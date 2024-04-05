@@ -1,5 +1,3 @@
-import type { Linter } from "eslint"
-
 import { ruleSorter } from "."
 import type { CombinedRules } from "./types"
 
@@ -34,9 +32,7 @@ export function generateTable(combined: CombinedRules) {
     builder.push(`<th style="text-align:left">${ruleName}</th>`)
     for (const origin of columns) {
       const value = combined[ruleName][origin]
-      const level = (
-        Array.isArray(value) ? value[0] : value ?? ""
-      ) as Linter.StringSeverity
+      const level = (Array.isArray(value) ? value[0] : value ?? "") as string
       const bgcolor =
         level === "off"
           ? "#ccc"
