@@ -13,7 +13,7 @@
     "build": "tsx src/index.ts",
     "check-types": "tsc",
     "lint": "eslint .",
-    "fix": "eslint --fix . && prettier --write .",
+    "fix": "eslint --fix .; prettier --write .",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "update": "ncu -ui",

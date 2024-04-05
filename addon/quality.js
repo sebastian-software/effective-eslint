@@ -19,5 +19,14 @@ export default {
 
   // Limit the number of nested callbacks to a sensible number. This is often
   // referred to as "callback hell" and can lead to difficult-to-read code.
-  "max-nested-callbacks": ["error", 3]
+  "max-nested-callbacks": ["error", 3],
+
+  // XO prefers types over interfaces, but most of the community prefers interfaces
+  // it seems. This is also part of the stylistic TS preset and the default rule value.
+  // See also:
+  // - https://github.com/typescript-eslint/typescript-eslint/issues/433
+  // - https://ncjamieson.com/prefer-interfaces/
+  // - https://medium.com/@martin_hotell/10-typescript-pro-tips-patterns-with-or-without-react-5799488d6680
+  // - https://www.bloomberg.com/company/stories/10-insights-adopting-typescript-at-scale/
+  "@typescript-eslint/consistent-type-definitions": ["error", "interface"]
 }
