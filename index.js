@@ -15,6 +15,7 @@ import unusedImportsPlugin from "eslint-plugin-unused-imports"
 
 import importAddonRules from "./addon/import.js"
 import qualityAddonRules from "./addon/quality.js"
+import namingAddonRules from "./addon/naming.js"
 import reactAddonRules from "./addon/react.js"
 
 const plugins = {
@@ -58,6 +59,7 @@ export const recommended = {
     ...rules,
     ...importAddonRules,
     ...qualityAddonRules,
+    ...namingAddonRules,
     ...reactAddonRules
   }
 }
