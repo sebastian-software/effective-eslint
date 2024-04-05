@@ -40,6 +40,11 @@ export const base = {
       project: `${process.cwd()}/tsconfig.json`
     }
   },
+  settings: {
+    react: {
+      version: "18.2"
+    }
+  },
   plugins
 }
 

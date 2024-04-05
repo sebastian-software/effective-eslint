@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-dynamic-delete */
 import type { Linter } from "eslint"
 
 import type { CombinedRules } from "./types"
