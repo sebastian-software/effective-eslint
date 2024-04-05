@@ -17,7 +17,7 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "update": "ncu -ui",
-    "is-clean": "git diff-files",
+    "is-clean": "git diff-files --exit-code",
     "prepare": "npm run build",
     "release": "git push && release-it --ci patch",
     "release:minor": "git push && release-it --ci minor",
