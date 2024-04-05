@@ -1,5 +1,6 @@
+import { mkdir, rm, writeFile } from "node:fs/promises"
+
 import type { Linter } from "eslint"
-import { mkdir, rm, writeFile } from "fs/promises"
 
 import {
   cleanupExplicitOff,
@@ -22,6 +23,7 @@ export function ruleSorter(a: string, b: string) {
   if (a.includes("/") && !b.includes("/")) {
     return 1
   }
+
   if (!a.includes("/") && b.includes("/")) {
     return -1
   }
@@ -45,11 +47,9 @@ function generateEffective(combined: CombinedRules) {
         counter++
         combined[ruleName].effective = values[use]
       }
-    } else {
-      if (selectPresetRules.some((regex) => regex.test(ruleName))) {
-        counter++
-        combined[ruleName].effective = values[origins[0]]
-      }
+    } else if (selectPresetRules.some((regex) => regex.test(ruleName))) {
+      counter++
+      combined[ruleName].effective = values[origins[0]]
     }
   }
 
@@ -60,14 +60,14 @@ async function writeConfig(combined: CombinedRules) {
   const ruleNames = Object.keys(combined).sort(ruleSorter)
 
   const rules: Record<string, Linter.RuleEntry> = {}
-  ruleNames.forEach((ruleName) => {
+  for (const ruleName of ruleNames) {
     const values = combined[ruleName]
     const effective = values.effective
 
-    if (effective != null) {
+    if (effective != undefined) {
       rules[ruleName] = effective
     }
-  })
+  }
 
   const json = JSON.stringify(rules, null, 2)
   const wrapped = `

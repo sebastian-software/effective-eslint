@@ -9,7 +9,7 @@ export function getAllOrigins(combined: CombinedRules) {
     }
   }
 
-  return Array.from(origins).sort()
+  return [...origins].sort()
 }
 
 export async function writeTable(combined: CombinedRules) {
@@ -19,9 +19,10 @@ export async function writeTable(combined: CombinedRules) {
   builder.push(`<table style="font: 12px system-ui">`)
   builder.push("<thead>")
   builder.push(`<th style="width:200px"></th>`)
-  columns.forEach((origin) => {
+  for (const origin of columns) {
     builder.push(`<th style="width:80px">${origin}</th>`)
-  })
+  }
+
   builder.push("</thead>")
 
   builder.push("<tbody>")
@@ -31,7 +32,7 @@ export async function writeTable(combined: CombinedRules) {
     builder.push(`<th style="text-align:left">${ruleName}</th>`)
     for (const origin of columns) {
       const value = combined[ruleName][origin]
-      const level = (value instanceof Array ? value[0] : value) ?? ""
+      const level = (Array.isArray(value) ? value[0] : value) ?? ""
       const bgcolor =
         level === "off"
           ? "#ccc"
@@ -45,13 +46,15 @@ export async function writeTable(combined: CombinedRules) {
         .replace(/^off$/, "✗")
         .replace(/^warn$/, "✓")
         .replace(/^error$/, "✓")
-      const plus = value instanceof Array && value.length > 1 ? "+" : ""
+      const plus = Array.isArray(value) && value.length > 1 ? "+" : ""
       builder.push(
         `<td style="background:${bgcolor};padding:3px 6px">${label}${plus}</td>`
       )
     }
+
     builder.push("</tr>")
   }
+
   builder.push("</tbody>")
   builder.push("</table>")
 
