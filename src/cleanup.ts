@@ -3,7 +3,7 @@ import type { Linter } from "eslint"
 
 import type { CombinedRules } from "./types"
 
-function isRuleOff(rule: Linter.RuleEntry) {
+function isRuleOff(rule: Linter.RuleEntry | undefined) {
   return Array.isArray(rule) ? rule[0] === "off" : rule === "off"
 }
 
