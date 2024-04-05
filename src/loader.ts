@@ -1,7 +1,48 @@
+import typeScriptPlugin from "@typescript-eslint/eslint-plugin"
 import type { Linter } from "eslint"
 import { ESLint } from "eslint"
+import jsdocPlugin from "eslint-plugin-jsdoc"
+import jsxA11yPlugin from "eslint-plugin-jsx-a11y"
+import nodePlugin from "eslint-plugin-n"
+import reactPlugin from "eslint-plugin-react"
+import reactHooksPlugin from "eslint-plugin-react-hooks"
+import regexpPlugin from "eslint-plugin-regexp"
+import simpleImportSortPlugin from "eslint-plugin-simple-import-sort"
+import unicornPlugin from "eslint-plugin-unicorn"
+import unusedImportsPlugin from "eslint-plugin-unused-imports"
 
 import type { CombinedRules } from "./types"
+
+export const plugins: Record<string, ESLint.Plugin> = {
+  "@typescript-eslint": typeScriptPlugin,
+  jsdoc: jsdocPlugin,
+  "jsx-a11y": jsxA11yPlugin,
+  n: nodePlugin,
+  react: reactPlugin,
+  "react-hooks": reactHooksPlugin,
+  regexp: regexpPlugin,
+  "simple-import-sort": simpleImportSortPlugin,
+  unicorn: unicornPlugin,
+  "unused-imports": unusedImportsPlugin
+}
+
+function addAutofixableRules() {
+  const autofix = new Set()
+
+  for (const [name, plugin] of Object.entries(plugins)) {
+    if (plugin.rules) {
+      for (const [ruleName, rule] of Object.entries(plugin.rules)) {
+        if ("meta" in rule && rule.meta?.fixable === "code") {
+          autofix.add(`${name}/${ruleName}`)
+        }
+      }
+    }
+  }
+
+  return autofix
+}
+
+export const autofixRules = addAutofixableRules()
 
 async function getConfig(config: ESLint.ConfigData) {
   const linter = new ESLint({
