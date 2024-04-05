@@ -1,6 +1,6 @@
 import typeScriptPlugin from "@typescript-eslint/eslint-plugin"
-import type { Linter } from "eslint"
-import { ESLint } from "eslint"
+import type { Linter as LinterNS } from "eslint"
+import { ESLint, Linter } from "eslint"
 import jsdocPlugin from "eslint-plugin-jsdoc"
 import jsxA11yPlugin from "eslint-plugin-jsx-a11y"
 import nodePlugin from "eslint-plugin-n"
@@ -26,14 +26,24 @@ export const plugins: Record<string, ESLint.Plugin> = {
   "unused-imports": unusedImportsPlugin
 }
 
-function addAutofixableRules() {
+function getAutofixableRules() {
+  const rules = new Set()
   const autofix = new Set()
+
+  for (const [ruleName, rule] of new Linter().getRules()) {
+    rules.add(ruleName)
+    if (rule.meta?.fixable === "code") {
+      autofix.add(ruleName)
+    }
+  }
 
   for (const [name, plugin] of Object.entries(plugins)) {
     if (plugin.rules) {
       for (const [ruleName, rule] of Object.entries(plugin.rules)) {
+        const fullName = `${name}/${ruleName}`
+        rules.add(fullName)
         if ("meta" in rule && rule.meta?.fixable === "code") {
-          autofix.add(`${name}/${ruleName}`)
+          autofix.add(fullName)
         }
       }
     }
@@ -42,7 +52,7 @@ function addAutofixableRules() {
   return autofix
 }
 
-export const autofixRules = addAutofixableRules()
+export const autofixRules = getAutofixableRules()
 
 async function getConfig(config: ESLint.ConfigData) {
   const linter = new ESLint({
@@ -59,7 +69,7 @@ async function getConfig(config: ESLint.ConfigData) {
 
 async function mergeConfig(
   combined: CombinedRules,
-  cfg: Promise<Partial<Linter.RulesRecord>>,
+  cfg: Promise<Partial<LinterNS.RulesRecord>>,
   origin: string
 ) {
   for (const [rule, value] of Object.entries(await cfg)) {
@@ -73,7 +83,7 @@ async function mergeConfig(
   }
 }
 
-const ruleLevel: Record<number, Linter.RuleLevel> = {
+const ruleLevel: Record<number, LinterNS.RuleLevel> = {
   /* eslint-disable @typescript-eslint/naming-convention */
   0: "off",
   1: "warn",
@@ -81,7 +91,7 @@ const ruleLevel: Record<number, Linter.RuleLevel> = {
   /* eslint-enable @typescript-eslint/naming-convention */
 }
 
-function normalizeLevel(value: Linter.RuleEntry) {
+function normalizeLevel(value: LinterNS.RuleEntry) {
   if (Array.isArray(value)) {
     if (typeof value[0] === "number") {
       value[0] = ruleLevel[value[0] as keyof typeof ruleLevel]
