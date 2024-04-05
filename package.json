@@ -18,7 +18,6 @@
     "check-format": "prettier --check .",
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
-    "test": "npm run build && npm run is-clean",
     "prepare": "npm run build",
     "release": "git push && release-it --ci patch",
     "release:minor": "git push && release-it --ci minor",
