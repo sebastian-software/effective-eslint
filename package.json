@@ -6,14 +6,16 @@
   "type": "module",
   "files": [
     "index.js",
-    "rules.json"
+    "generated/*.js",
+    "addon/*.js"
   ],
   "scripts": {
     "build": "tsx src/index.ts",
-    "check": "tsc",
+    "check-types": "tsc",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "fix": "eslint --fix . && prettier --write .",
     "format": "prettier --write .",
+    "check-format": "prettier --check .",
     "update": "ncu -ui",
     "is-clean": "git diff-files --quiet",
     "test": "npm run build && npm run is-clean",
