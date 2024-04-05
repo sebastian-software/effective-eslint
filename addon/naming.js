@@ -8,7 +8,7 @@ export default {
       selector: "variable",
       format: ["UPPER_CASE"],
       modifiers: ["const", "global"],
-      types: ["array", "boolean", "number", "string"],
+      types: ["boolean", "number", "string"],
       leadingUnderscore: "forbid",
       trailingUnderscore: "forbid",
       filter: {
