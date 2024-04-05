@@ -10,7 +10,7 @@ async function getConfig(config: ESLint.ConfigData) {
   })
 
   const cfg = (await linter.calculateConfigForFile(
-    "index.ts"
+    "index.tsx"
   )) as ESLint.ConfigData
 
   return cfg.rules ?? {}

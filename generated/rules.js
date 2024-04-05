@@ -709,7 +709,8 @@
         "accessor"
       ],
       "format": [
-        "strictCamelCase"
+        "strictCamelCase",
+        "StrictPascalCase"
       ],
       "leadingUnderscore": "allowSingleOrDouble",
       "trailingUnderscore": "allow",
