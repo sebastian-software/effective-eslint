@@ -101,14 +101,11 @@ Effective ESLint globally excludes specific namespaces/plugins to maintain focus
 1. `vue/*`: Tailored for ReactJS, hence all Vue-related rules are excluded.
 2. `flowtype/*`: Dedicated to TypeScript, omitting all Flowtype-related rules.
 3. `@next/*`: Framework-specific rules, such as those from NextJS, are avoided to prevent conflicts in diverse environments.
+4. `import/*`: Given its reduced relevance in TypeScript projects, the import plugin is not very utilized in most presets nowadays. It is also relatively slow in execution for TypeScript code.
 
 ### Disabled Formatting
 
 Effective ESLint employs Prettier's configuration to disable any stylistic/formatting rules that could conflict with Prettier's guidelines. This encompasses core ESLint rules and those from React and TypeScript plugins.
-
-**Explicitly Unused Plugins:**
-
-- [Import](https://www.npmjs.com/package/eslint-plugin-import): Given its reduced relevance in TypeScript projects, the import plugin is not utilized in most presets nowadays. The [enhanced TS-fork](https://github.com/un-ts/eslint-plugin-import-x) might be a good alternative. It just seems that most rules are more targeted to legacy code than modern TS-code.
 
 ## License
 
