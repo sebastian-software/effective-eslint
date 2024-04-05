@@ -1,4 +1,4 @@
-import type { Linter } from "eslint";
+import type { Linter } from "eslint"
 import { ESLint } from "eslint"
 
 import type { CombinedRules } from "./types"
@@ -12,6 +12,7 @@ async function getConfig(config: ESLint.ConfigData) {
   const cfg = (await linter.calculateConfigForFile(
     "index.ts"
   )) as ESLint.ConfigData
+
   return cfg.rules ?? {}
 }
 
