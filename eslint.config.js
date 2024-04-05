@@ -1,3 +1,3 @@
-import { main } from "./index.js"
+import { recommended } from "./index.js"
 
-export default [main]
+export default [recommended]

@@ -4,6 +4,10 @@ export default {
   // uniform codebase.
   "func-style": ["error", "declaration", { allowArrowFunctions: true }],
 
+  // ReactApp suggests the smart mode, XO uses non smart. But smart is fine.
+  // Typically we prefer XO over other presets but not here.
+  eqeqeq: ["error", "smart"],
+
   // Limit complexity by default to a sensible number
   complexity: ["error", 15],
 
