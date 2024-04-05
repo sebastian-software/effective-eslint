@@ -17,6 +17,17 @@ export default {
     { max: 1000, skipBlankLines: false, skipComments: false }
   ],
 
+  // Useful rule for more maintainable code
+  // Block prop => properties (which is very common in ReactJS)
+  "unicorn/prevent-abbreviations": [
+    "error",
+    {
+      replacements: {
+        props: false
+      }
+    }
+  ],
+
   // XO prefers types over interfaces, but most of the community prefers interfaces
   // it seems. This is also part of the stylistic TS preset and the default rule value.
   // See also:
