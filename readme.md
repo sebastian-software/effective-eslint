@@ -52,7 +52,7 @@ There is also a `main` import as an alternative to `recommended` which does not 
 
 ## Rules
 
-You can check the [full resolution table here](rules.md) which shows which rules are active and from where.
+You can check the [full resolution table here](generated/rules.md) which shows which rules are active and from where.
 
 ## Approach
 
