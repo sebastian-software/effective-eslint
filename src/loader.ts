@@ -80,7 +80,11 @@ export async function loadConfigs(combined: CombinedRules) {
   await mergeConfig(
     combined,
     getConfig({
-      extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"]
+      extends: [
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:react-hooks/recommended"
+      ]
     }),
     "react"
   )

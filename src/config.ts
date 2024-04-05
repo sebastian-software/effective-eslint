@@ -23,14 +23,18 @@ export const blockedRules = new Set([
 ])
 
 export const deprecatedRules = new Set([
-  // With TypeScript we do not use PropTypes anymore
-  "react/prop-types",
-
   // There is a TS variant for the same rule
   "prefer-destructuring",
 
   // The "eqeqeq" rule is a more powerful alternative
-  "no-eq-null"
+  "no-eq-null",
+
+  // With TypeScript we do not use PropTypes anymore
+  "react/prop-types",
+
+  // Some presets still define these legacy rules
+  "react/react-in-jsx-scope",
+  "react/jsx-uses-react"
 ])
 
 export const dropPluginRules = [

@@ -5748,13 +5748,13 @@
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-uses-react</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -6207,13 +6207,13 @@
 </tr>
 <tr>
 <th style="text-align:left">react/react-in-jsx-scope</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>

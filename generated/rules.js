@@ -1323,7 +1323,7 @@
     }
   ],
   "react/jsx-uses-react": [
-    "error"
+    "off"
   ],
   "react/jsx-uses-vars": [
     "error"
@@ -1407,7 +1407,7 @@
     "off"
   ],
   "react/react-in-jsx-scope": [
-    "error"
+    "off"
   ],
   "react/require-default-props": [
     "error",
