@@ -3,7 +3,6 @@ import rules from "./generated/rules.js"
 import typeScriptParser from "@typescript-eslint/parser"
 
 import typeScriptPlugin from "@typescript-eslint/eslint-plugin"
-
 import jsdocPlugin from "eslint-plugin-jsdoc"
 import jsxA11yPlugin from "eslint-plugin-jsx-a11y"
 import nodePlugin from "eslint-plugin-n"

@@ -17,10 +17,6 @@ export default {
     { max: 1000, skipBlankLines: false, skipComments: false }
   ],
 
-  // Limit the number of nested callbacks to a sensible number. This is often
-  // referred to as "callback hell" and can lead to difficult-to-read code.
-  "max-nested-callbacks": ["error", 3],
-
   // XO prefers types over interfaces, but most of the community prefers interfaces
   // it seems. This is also part of the stylistic TS preset and the default rule value.
   // See also:
