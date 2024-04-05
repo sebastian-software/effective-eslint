@@ -1643,7 +1643,7 @@
     "error"
   ],
   "unicorn/filename-case": [
-    "error"
+    "off"
   ],
   "unicorn/import-style": [
     "error"

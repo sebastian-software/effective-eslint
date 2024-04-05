@@ -18,6 +18,9 @@ export const blockedRules = new Set([
   // string builds often use this, but combining multiple pushes lead to non-intentional formatting/structure
   "unicorn/no-array-push-push",
 
+  // possible file name settings too limitied for typical use cases
+  "unicorn/filename-case",
+
   // This is mainly formatting, not functional and might hurt DX when commenting out code temporarily.
   "capitalized-comments"
 ])

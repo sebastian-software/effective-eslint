@@ -7482,7 +7482,7 @@
 </tr>
 <tr>
 <th style="text-align:left">unicorn/filename-case</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
