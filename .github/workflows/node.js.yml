@@ -19,17 +19,41 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "pnpm"
+
       - uses: pnpm/action-setup@v3
-      - run: pnpm install
-      - run: pnpm run build
-      - run: pnpm run lint
-      - run: pnpm run check-format
-      - run: pnpm run check-types
-      - run: pnpm run test
-      - run: pnpm run is-clean
+        name: Install pnpm
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Building Preset
+        run: pnpm run build
+
+      - name: Running Checks
+        run: pnpm run lint && pnpm run check-format && pnpm run check-types && pnpm run test
+
+      - name: Checking Cleanliness
+        run: pnpm run is-clean
