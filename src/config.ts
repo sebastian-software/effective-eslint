@@ -12,9 +12,25 @@ export const mergePriority = [
   "n"
 ]
 
+// This is kind of special, but there are some rules defined in some presets
+// and recommended sets which are overly specific on style and are not functionally useful.
+export const blockedRules = new Set([
+  // string builds often use this, but combining multiple pushes lead to non-intentional formatting/structure
+  "unicorn/no-array-push-push",
+
+  // This is mainly formatting, not functional and might hurt DX when commenting out code temporarily.
+  "capitalized-comments"
+])
+
 export const deprecatedRules = new Set([
   // With TypeScript we do not use PropTypes anymore
-  "react/prop-types"
+  "react/prop-types",
+
+  // There is a TS variant for the same rule
+  "prefer-destructuring",
+
+  // The "eqeqeq" rule is a more powerful alternative
+  "no-eq-null"
 ])
 
 export const dropPluginRules = [

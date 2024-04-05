@@ -7,6 +7,7 @@ import {
   cleanupUnusedPlugins
 } from "./cleanup"
 import {
+  blockedRules,
   deprecatedRules,
   dropPluginRules,
   mergePriority,
@@ -38,7 +39,7 @@ function generateEffective(combined: CombinedRules) {
     const use = mergePriority.find((priority) => origins.includes(priority))
 
     if (use) {
-      if (deprecatedRules.has(ruleName)) {
+      if (deprecatedRules.has(ruleName) || blockedRules.has(ruleName)) {
         combined[ruleName].effective = ["off"]
       } else {
         counter++
