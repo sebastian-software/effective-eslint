@@ -15,11 +15,12 @@ Introducing `@effective/eslint-config`—your definitive ESLint configuration pa
 
 ## Key Features
 
-- **Comprehensive Configurations:** `Effective ESLint` harmonizes diverse, top-tier ESLint presets into a single, cohesive configuration, providing you with the best of what the ESLint community has to offer.
-- **Fully Customizable:** Recognizing the unique needs of different projects, `Effective ESLint` is designed for flexibility. Easily adjust or disable specific rules to tailor the configuration to your project's requirements, ensuring an optimal balance between guideline enforcement and creative freedom.
-- **Streamlined Integration:** Simplify your setup process with `Effective ESLint`. Our configuration is engineered for ease of use, enabling you to quickly integrate and get started with refining your codebase without the hassle of complex configuration.
-- **Enhanced Efficiency:** By amalgamating multiple presets into one, `Effective ESLint` optimizes the linting process. This integration not only simplifies management but also accelerates the startup time of the linter, making your development process faster and more efficient.
-- **Community-Driven Development:** At the heart of `Effective ESLint` is a commitment to continuous improvement and inclusivity. We welcome contributions from the community to help us evolve and enrich our configurations, ensuring they remain at the forefront of coding standards and practices.
+- **Comprehensive Configurations:** `Effective ESLint` integrates a variety of top-tier ESLint presets into one unified configuration, offering the best practices from the ESLint community. This approach ensures you have a comprehensive and effective linting setup.
+- **Fully Customizable:** With the understanding that each project is unique, `Effective ESLint` is built to be fully customizable. It allows for easy adjustment or deactivation of specific rules to fit your project's needs, providing a perfect mix of guideline enforcement and creative latitude.
+- **Streamlined Integration:** `Effective ESLint` is designed to be user-friendly, streamlining the setup process. Its configuration facilitates quick integration, allowing you to refine your codebase efficiently, without the complexities of intricate setups.
+- **Enhanced Efficiency:** `Effective ESLint` enhances the linting process by combining multiple presets into one, which not only eases management but also improves the linter's startup time. This results in a quicker and more productive development workflow.
+- **Addons:** `Effective ESLint` includes addons that enhance code consistency, specifically for imports, JSX code, and enforcing sensible defaults to maintain low code complexity.
+- **Community-Driven Development:** The development of `Effective ESLint` is community-driven, emphasizing continuous improvement and inclusivity. Contributions from the community are highly encouraged, helping to keep our configurations up-to-date with the latest coding standards and practices.
 
 ## Installation
 
@@ -35,17 +36,19 @@ pnpm add @effective/eslint-config eslint --dev
 
 ## Usage
 
-After installation, you can configure ESLint to use @effective/eslint-config by adding it to your .eslintrc file or the ESLint configuration section of your package.json.
+After installation, you can configure ESLint to use @effective/eslint-config by adding it to your `eslint.config.js` (flat configuration) file:
 
 ```js
-{
-  "extends": "@effective",
-  "rules": {
-    // disable or customize as needed
-    ...
-  }
-}
+import { recommended } from "@effective/eslint-config"
+
+export default [
+  recommended
+
+  // room for custom overrides
+]
 ```
+
+There is also a `main` import as an alternative to `recommended` which does not include any of the listed addons.
 
 ## Rules
 
@@ -80,6 +83,16 @@ Effective ESLint is further enriched by recommended rules from these plugins:
 4. [Node](https://www.npmjs.com/package/eslint-plugin-n): A maintained fork of the original Node.js plugin, with all recommended ESM Node.js rules enabled.
 5. [JSDoc](https://github.com/gajus/eslint-plugin-jsdoc): Enables all recommended JSDoc rules, excluding those starting with `required-`. This reflects the TypeScript project's reliance on the type system over extensive JSDoc comments.
 6. [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended RegExp rules are enabled to ensure expressions are both efficient and error-free.
+
+### Addons
+
+There are three addon files:
+
+- `import`: sorting and grouping imports automatically
+- `quality`: sensible defaults for complexity, file size, etc.
+- `react`: enhanced unified code style for JSX code
+
+These are all part of the `recommended` import which we suggest to use. Alternatively you can also built upon the base unified rule set by importing `main` instead.
 
 ### Focus: React/TypeScript
 
