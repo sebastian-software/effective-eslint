@@ -34,7 +34,9 @@ export function generateTable(combined: CombinedRules) {
     builder.push(`<th style="text-align:left">${ruleName}</th>`)
     for (const origin of columns) {
       const value = combined[ruleName][origin]
-      const level = (Array.isArray(value) ? value[0] : value) ?? ""
+      const level = (
+        Array.isArray(value) ? value[0] : value ?? ""
+      ) as Linter.StringSeverity
       const bgcolor =
         level === "off"
           ? "#ccc"
@@ -43,8 +45,8 @@ export function generateTable(combined: CombinedRules) {
             : level === "error"
               ? "#fdb5bb"
               : "#eee"
+
       const label = level
-        .toString()
         .replace(/^off$/, "✗")
         .replace(/^warn$/, "✓")
         .replace(/^error$/, "✓")
