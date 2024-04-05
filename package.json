@@ -1,6 +1,6 @@
 {
   "name": "@effective/eslint-config",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "ESLint Config for TypeScript and ReactJS",
   "main": "index.js",
   "type": "module",
