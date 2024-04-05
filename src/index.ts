@@ -15,7 +15,7 @@ import {
   selectPresetRules
 } from "./config"
 import { loadConfigs } from "./loader"
-import { writeTable } from "./table"
+import { generateTable } from "./table"
 import type { CombinedRules } from "./types"
 
 /** Custom sort method which sorts plugin rules separately. */
@@ -56,7 +56,7 @@ function generateEffective(combined: CombinedRules) {
   console.log("Effective Rules:", counter)
 }
 
-async function writeConfig(combined: CombinedRules) {
+function generateConfig(combined: CombinedRules) {
   const ruleNames = Object.keys(combined).sort(ruleSorter)
 
   const rules: Record<string, Linter.RuleEntry> = {}
@@ -64,12 +64,12 @@ async function writeConfig(combined: CombinedRules) {
     const values = combined[ruleName]
     const effective = values.effective
 
-    if (effective != undefined) {
+    if (effective) {
       rules[ruleName] = effective
     }
   }
 
-  const json = JSON.stringify(rules, null, 2)
+  const json = JSON.stringify(rules, undefined, 2)
   const wrapped = `
     const rules = ${json};
     export default rules;
@@ -78,32 +78,30 @@ async function writeConfig(combined: CombinedRules) {
   return wrapped
 }
 
-async function main() {
-  const combined: CombinedRules = {}
+//
+// MAIN
+//
 
-  console.log("Loading...")
-  await loadConfigs(combined)
+const combined: CombinedRules = {}
 
-  console.log("All Rules:", Object.keys(combined).length)
+console.log("Loading...")
+await loadConfigs(combined)
 
-  cleanupUnusedPlugins(combined, dropPluginRules)
-  cleanupExplicitOff(combined)
-  cleanupRemainingOff(combined)
+console.log("All Rules:", Object.keys(combined).length)
 
-  console.log("Relevant Rules:", Object.keys(combined).length)
+cleanupUnusedPlugins(combined, dropPluginRules)
+cleanupExplicitOff(combined)
+cleanupRemainingOff(combined)
 
-  generateEffective(combined)
+console.log("Relevant Rules:", Object.keys(combined).length)
 
-  await rm("./generated", { recursive: true, force: true })
-  await mkdir("./generated", { recursive: true })
+generateEffective(combined)
 
-  console.log("Writing table...")
-  const table = await writeTable(combined)
-  await writeFile("./generated/rules.md", table)
+await rm("./generated", { recursive: true, force: true })
+await mkdir("./generated", { recursive: true })
 
-  console.log("Writing config...")
-  const config = await writeConfig(combined)
-  await writeFile("./generated/rules.js", config)
-}
+console.log("Writing table...")
+await writeFile("./generated/rules.md", generateTable(combined))
 
-void main()
+console.log("Writing config...")
+await writeFile("./generated/rules.js", generateConfig(combined))

@@ -22,7 +22,9 @@ async function mergeConfig(
   origin: string
 ) {
   for (const [rule, value] of Object.entries(await cfg)) {
-    combined[rule] ||= {}
+    if (!(rule in combined)) {
+      combined[rule] = {}
+    }
 
     if (value) {
       combined[rule][origin] = normalizeLevel(value)
@@ -31,9 +33,11 @@ async function mergeConfig(
 }
 
 const ruleLevel: Record<number, Linter.RuleLevel> = {
+  /* eslint-disable @typescript-eslint/naming-convention */
   0: "off",
   1: "warn",
   2: "error"
+  /* eslint-enable @typescript-eslint/naming-convention */
 }
 
 function normalizeLevel(value: Linter.RuleEntry) {

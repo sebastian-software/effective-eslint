@@ -1,3 +1,5 @@
+import type { Linter } from "eslint"
+
 import { ruleSorter } from "."
 import type { CombinedRules } from "./types"
 
@@ -12,7 +14,7 @@ export function getAllOrigins(combined: CombinedRules) {
   return [...origins].sort()
 }
 
-export async function writeTable(combined: CombinedRules) {
+export function generateTable(combined: CombinedRules) {
   const columns = getAllOrigins(combined)
 
   const builder = []
