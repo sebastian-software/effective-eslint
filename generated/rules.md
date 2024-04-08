@@ -5,6 +5,7 @@
 <th style="width:80px">eslint</th>
 <th style="width:80px">jsdoc</th>
 <th style="width:80px">jsx-a11y</th>
+<th style="width:80px">local</th>
 <th style="width:80px">next</th>
 <th style="width:80px">node</th>
 <th style="width:80px">react</th>
@@ -32,11 +33,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">array-callback-return</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -66,11 +69,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">block-scoped-var</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -100,6 +105,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
@@ -108,6 +114,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -134,6 +141,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -142,6 +150,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -168,11 +177,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">func-name-matching</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -202,11 +213,31 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+</tr>
+<tr>
+<th style="text-align:left">func-style</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">grouped-accessor-pairs</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -236,11 +267,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">logical-assignment-operators</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -270,11 +303,31 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">max-lines</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">max-nested-callbacks</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -304,11 +357,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">new-cap</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -338,6 +393,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -355,11 +411,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-await-in-loop</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -389,6 +447,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -406,11 +465,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-caller</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -440,12 +501,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-class-assign</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -474,12 +537,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-cond-assign</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -496,6 +561,7 @@
 <tr>
 <th style="text-align:left">no-constant-binary-expression</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -525,11 +591,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-constructor-return</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -548,6 +616,7 @@
 <th style="text-align:left">no-control-regex</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -576,12 +645,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-delete-var</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -610,12 +681,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-duplicate-case</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -644,12 +717,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">no-empty</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -672,6 +747,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -689,6 +765,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -700,6 +777,7 @@
 <tr>
 <th style="text-align:left">no-empty-static-block</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -729,11 +807,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-eval</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -757,6 +837,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -774,6 +855,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -785,6 +867,7 @@
 <tr>
 <th style="text-align:left">no-extra-bind</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -810,6 +893,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -819,6 +903,7 @@
 <tr>
 <th style="text-align:left">no-extra-label</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -842,6 +927,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -859,6 +945,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -870,6 +957,7 @@
 <tr>
 <th style="text-align:left">no-implicit-coercion</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -899,6 +987,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -916,12 +1005,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-invalid-regexp</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -950,11 +1041,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-iterator</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -978,6 +1071,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -995,6 +1089,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
@@ -1006,6 +1101,7 @@
 <tr>
 <th style="text-align:left">no-lone-blocks</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1035,11 +1131,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-loop-func</th>
 <td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1058,6 +1156,7 @@
 <th style="text-align:left">no-misleading-character-class</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1086,11 +1185,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-multi-str</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1108,6 +1209,7 @@
 <tr>
 <th style="text-align:left">no-negated-condition</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1137,11 +1239,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-new-func</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1171,11 +1275,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-new-object</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1193,6 +1299,7 @@
 <tr>
 <th style="text-align:left">no-new-wrappers</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1222,11 +1329,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-object-constructor</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1250,6 +1359,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1261,6 +1371,7 @@
 <tr>
 <th style="text-align:left">no-octal-escape</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1290,11 +1401,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-proto</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1324,12 +1437,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-regex-spaces</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1346,6 +1461,7 @@
 <tr>
 <th style="text-align:left">no-restricted-globals</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1369,6 +1485,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1380,6 +1497,7 @@
 <tr>
 <th style="text-align:left">no-restricted-syntax</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1409,11 +1527,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">no-return-await</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1437,6 +1557,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1454,6 +1575,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1465,6 +1587,7 @@
 <tr>
 <th style="text-align:left">no-self-compare</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1488,6 +1611,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1500,6 +1624,7 @@
 <th style="text-align:left">no-shadow-restricted-names</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1522,6 +1647,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1533,6 +1659,7 @@
 <tr>
 <th style="text-align:left">no-template-curly-in-string</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1562,11 +1689,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-unmodified-loop-condition</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1596,11 +1725,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-unreachable-loop</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1630,6 +1761,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -1647,11 +1779,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">no-unused-expressions</th>
 <td style="background:#ccc;padding:3px 6px">✗+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1675,6 +1809,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1693,6 +1828,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1703,6 +1839,7 @@
 <tr>
 <th style="text-align:left">no-useless-call</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1732,11 +1869,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-useless-computed-key</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1760,6 +1899,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1777,6 +1917,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -1788,6 +1929,7 @@
 <tr>
 <th style="text-align:left">no-useless-rename</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1817,11 +1959,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">no-var</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1851,11 +1995,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">no-warning-comments</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1879,6 +2025,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1890,6 +2037,7 @@
 <tr>
 <th style="text-align:left">object-shorthand</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1919,11 +2067,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">operator-assignment</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1953,11 +2103,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">prefer-const</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1987,11 +2139,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">prefer-exponentiation-operator</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2021,11 +2175,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">prefer-object-has-own</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2055,11 +2211,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">prefer-regex-literals</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2085,6 +2243,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -2094,6 +2253,7 @@
 <tr>
 <th style="text-align:left">prefer-spread</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2123,12 +2283,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">require-yield</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2157,11 +2319,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">strict</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2191,11 +2355,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">unicode-bom</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2219,6 +2385,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -2231,6 +2398,7 @@
 <th style="text-align:left">valid-typeof</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2259,11 +2427,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/adjacent-overload-signatures</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2291,6 +2461,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
@@ -2298,6 +2469,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/await-thenable</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2315,6 +2487,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/ban-ts-comment</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2342,6 +2515,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -2349,6 +2523,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/ban-types</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2376,6 +2551,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
@@ -2383,6 +2559,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/consistent-generic-constructors</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2410,6 +2587,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -2417,6 +2595,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/consistent-type-assertions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2437,6 +2616,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2463,6 +2643,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
@@ -2471,6 +2652,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2497,11 +2679,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/dot-notation</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2531,11 +2715,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/member-ordering</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2556,6 +2742,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2570,6 +2757,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-array-constructor</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2596,6 +2784,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2604,6 +2793,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-base-to-string</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2631,6 +2821,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2638,6 +2829,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-confusing-void-expression</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2667,11 +2859,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-duplicate-enum-values</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2698,6 +2892,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2706,6 +2901,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-dynamic-delete</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2731,6 +2927,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -2740,6 +2937,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-empty-interface</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2765,6 +2963,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2774,6 +2973,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-extra-non-null-assertion</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2800,6 +3000,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2808,6 +3009,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-floating-promises</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2834,6 +3036,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2842,6 +3045,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-implied-eval</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2867,6 +3071,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -2876,6 +3081,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-invalid-void-type</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2905,11 +3111,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-loss-of-precision</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2936,6 +3144,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2944,6 +3153,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-misused-new</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2970,6 +3180,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2987,6 +3198,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2995,6 +3207,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-namespace</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3021,6 +3234,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3029,6 +3243,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-non-null-asserted-optional-chain</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3054,6 +3269,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3063,6 +3279,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-redeclare</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3080,6 +3297,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-redundant-type-constituents</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3109,6 +3327,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -3126,11 +3345,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-this-alias</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3160,11 +3381,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unnecessary-boolean-literal-compare</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3182,6 +3405,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unnecessary-condition</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3211,11 +3435,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unnecessary-type-arguments</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3242,6 +3468,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3250,6 +3477,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unnecessary-type-constraint</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3276,6 +3504,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3284,6 +3513,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unsafe-assignment</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3310,6 +3540,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3318,6 +3549,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unsafe-declaration-merging</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3344,6 +3576,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3352,6 +3585,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unsafe-member-access</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3378,6 +3612,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3386,6 +3621,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-unused-expressions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3409,6 +3645,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
@@ -3426,6 +3663,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
@@ -3437,6 +3675,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-useless-constructor</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3466,11 +3705,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/no-useless-template-literals</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3488,6 +3729,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/no-var-requires</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3515,6 +3757,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -3522,6 +3765,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/only-throw-error</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3551,6 +3795,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
@@ -3568,11 +3813,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-as-const</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3602,11 +3849,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-for-of</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3634,6 +3883,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -3641,6 +3891,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-includes</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3667,6 +3918,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3675,6 +3927,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-namespace-keyword</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3702,6 +3955,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
@@ -3719,6 +3973,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -3726,6 +3981,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-promise-reject-errors</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3755,11 +4011,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-reduce-type-parameter</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3789,11 +4047,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-return-this-type</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3821,6 +4081,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -3828,6 +4089,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/prefer-ts-expect-error</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3857,11 +4119,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/require-array-sort-compare</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3888,6 +4152,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3905,6 +4170,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3913,6 +4179,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/restrict-template-expressions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3942,6 +4209,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
@@ -3959,11 +4227,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">@typescript-eslint/triple-slash-reference</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3990,6 +4260,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4007,6 +4278,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4015,6 +4287,7 @@
 <tr>
 <th style="text-align:left">@typescript-eslint/use-unknown-in-catch-callback-variable</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4045,12 +4318,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/check-alignment</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4079,12 +4354,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/check-property-names</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4113,12 +4390,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/check-types</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4147,12 +4426,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/empty-tags</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4181,12 +4462,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/multiline-blocks</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4215,12 +4498,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/no-multi-asterisks</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4249,12 +4534,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-jsdoc</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4283,12 +4570,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-param-description</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4317,12 +4606,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-param-type</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4351,12 +4642,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-property-description</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4385,12 +4678,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-property-type</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4419,12 +4714,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-returns-check</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4453,12 +4750,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-returns-type</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4487,12 +4786,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/require-yields-check</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4521,12 +4822,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsdoc/valid-types</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4545,6 +4848,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4565,6 +4869,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
@@ -4579,6 +4884,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4599,6 +4905,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -4613,6 +4920,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4630,6 +4938,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4650,6 +4959,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
@@ -4664,6 +4974,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4691,6 +5002,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/click-events-have-key-events</th>
@@ -4708,6 +5020,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/heading-has-content</th>
@@ -4715,6 +5028,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4742,6 +5056,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/iframe-has-title</th>
@@ -4749,6 +5064,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4766,6 +5082,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4793,6 +5110,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/label-has-associated-control</th>
@@ -4810,9 +5128,11 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/lang</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4844,6 +5164,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/mouse-events-have-key-events</th>
@@ -4861,6 +5182,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/no-access-key</th>
@@ -4868,6 +5190,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4895,6 +5218,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/no-distracting-elements</th>
@@ -4902,6 +5226,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4929,6 +5254,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/no-noninteractive-element-interactions</th>
@@ -4936,6 +5262,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -4963,6 +5290,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/no-noninteractive-tabindex</th>
@@ -4980,6 +5308,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/no-redundant-roles</th>
@@ -4987,6 +5316,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5014,6 +5344,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">jsx-a11y/role-has-required-aria-props</th>
@@ -5021,6 +5352,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5038,6 +5370,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5055,6 +5388,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5082,9 +5416,11 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">n/no-deprecated-api</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5107,6 +5443,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5119,6 +5456,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-extraneous-import</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5141,6 +5479,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5153,6 +5492,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-missing-import</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5175,6 +5515,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5187,6 +5528,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-process-exit</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5209,6 +5551,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5221,6 +5564,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-unpublished-import</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5243,6 +5587,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5255,6 +5600,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-unsupported-features/es-builtins</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5277,6 +5623,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5289,6 +5636,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/no-unsupported-features/node-builtins</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5311,6 +5659,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5323,6 +5672,7 @@
 </tr>
 <tr>
 <th style="text-align:left">n/shebang</th>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5344,6 +5694,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
@@ -5358,6 +5709,7 @@
 <tr>
 <th style="text-align:left">react-hooks/rules-of-hooks</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5387,11 +5739,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/button-has-type</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5421,11 +5775,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/display-name</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5443,6 +5799,7 @@
 <tr>
 <th style="text-align:left">react/forbid-foreign-prop-types</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5472,11 +5829,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/hook-use-state</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5506,11 +5865,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-boolean-value</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5531,6 +5892,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5557,11 +5919,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-key</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5591,11 +5955,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-comment-textnodes</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5625,11 +5991,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-duplicate-props</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5659,11 +6027,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-no-target-blank</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5681,6 +6051,7 @@
 <tr>
 <th style="text-align:left">react/jsx-no-undef</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5710,11 +6081,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-pascal-case</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5744,11 +6117,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-uses-react</th>
 <td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5766,6 +6141,7 @@
 <tr>
 <th style="text-align:left">react/jsx-uses-vars</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5795,11 +6171,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-array-index-key</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5829,11 +6207,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-children-prop</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5863,11 +6243,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-danger-with-children</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5885,6 +6267,7 @@
 <tr>
 <th style="text-align:left">react/no-deprecated</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5914,11 +6297,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-direct-mutation-state</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5936,6 +6321,7 @@
 <tr>
 <th style="text-align:left">react/no-find-dom-node</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5965,11 +6351,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-is-mounted</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5999,11 +6387,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-redundant-should-component-update</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6024,6 +6414,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -6038,6 +6429,7 @@
 <tr>
 <th style="text-align:left">react/no-string-refs</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6067,11 +6459,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-typos</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6092,6 +6486,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -6109,6 +6504,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
@@ -6123,6 +6519,7 @@
 <tr>
 <th style="text-align:left">react/no-unsafe</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6152,11 +6549,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/no-unused-state</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6186,11 +6585,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/prop-types</th>
 <td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6208,6 +6609,7 @@
 <tr>
 <th style="text-align:left">react/react-in-jsx-scope</th>
 <td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6237,11 +6639,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 </tr>
 <tr>
 <th style="text-align:left">react/require-render-return</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6262,6 +6666,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6276,6 +6681,7 @@
 <tr>
 <th style="text-align:left">react/state-in-constructor</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6305,11 +6711,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">react/style-prop-object</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6339,11 +6747,13 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
 <th style="text-align:left">regexp/confusing-quantifier</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6368,6 +6778,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6378,6 +6789,7 @@
 <tr>
 <th style="text-align:left">regexp/match-any</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6402,6 +6814,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6412,6 +6825,7 @@
 <tr>
 <th style="text-align:left">regexp/no-contradiction-with-assertion</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6436,6 +6850,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6446,6 +6861,7 @@
 <tr>
 <th style="text-align:left">regexp/no-dupe-disjunctions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6470,6 +6886,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6480,6 +6897,7 @@
 <tr>
 <th style="text-align:left">regexp/no-empty-capturing-group</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6504,6 +6922,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6514,6 +6933,7 @@
 <tr>
 <th style="text-align:left">regexp/no-empty-group</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6538,6 +6958,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6548,6 +6969,7 @@
 <tr>
 <th style="text-align:left">regexp/no-empty-string-literal</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6572,6 +6994,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6582,6 +7005,7 @@
 <tr>
 <th style="text-align:left">regexp/no-extra-lookaround-assertions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6606,6 +7030,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6616,6 +7041,7 @@
 <tr>
 <th style="text-align:left">regexp/no-invisible-character</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6640,6 +7066,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6650,6 +7077,7 @@
 <tr>
 <th style="text-align:left">regexp/no-legacy-features</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6674,6 +7102,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6684,6 +7113,7 @@
 <tr>
 <th style="text-align:left">regexp/no-misleading-unicode-character</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6708,6 +7138,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6718,6 +7149,7 @@
 <tr>
 <th style="text-align:left">regexp/no-non-standard-flag</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6742,6 +7174,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6752,6 +7185,7 @@
 <tr>
 <th style="text-align:left">regexp/no-optional-assertion</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6776,6 +7210,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6786,6 +7221,7 @@
 <tr>
 <th style="text-align:left">regexp/no-super-linear-backtracking</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6810,6 +7246,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6820,6 +7257,7 @@
 <tr>
 <th style="text-align:left">regexp/no-trivially-nested-quantifier</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6844,6 +7282,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6854,6 +7293,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-assertions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6878,6 +7318,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6888,6 +7329,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-character-class</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6912,6 +7354,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6922,6 +7365,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-escape</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6946,6 +7390,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6956,6 +7401,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-lazy</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6980,6 +7426,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -6990,6 +7437,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-quantifier</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7014,6 +7462,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7024,6 +7473,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-set-operand</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7048,6 +7498,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7058,6 +7509,7 @@
 <tr>
 <th style="text-align:left">regexp/no-useless-two-nums-quantifier</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7082,6 +7534,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7092,6 +7545,7 @@
 <tr>
 <th style="text-align:left">regexp/optimal-lookaround-quantifier</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7116,6 +7570,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7126,6 +7581,7 @@
 <tr>
 <th style="text-align:left">regexp/prefer-character-class</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7150,6 +7606,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7160,6 +7617,7 @@
 <tr>
 <th style="text-align:left">regexp/prefer-plus-quantifier</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7184,6 +7642,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7194,6 +7653,7 @@
 <tr>
 <th style="text-align:left">regexp/prefer-question-quantifier</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7218,6 +7678,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7228,6 +7689,7 @@
 <tr>
 <th style="text-align:left">regexp/prefer-set-operation</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7252,6 +7714,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7262,6 +7725,7 @@
 <tr>
 <th style="text-align:left">regexp/prefer-unicode-codepoint-escapes</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7286,6 +7750,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7296,6 +7761,7 @@
 <tr>
 <th style="text-align:left">regexp/simplify-set-operations</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7320,6 +7786,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7330,6 +7797,7 @@
 <tr>
 <th style="text-align:left">regexp/strict</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7354,7 +7822,26 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+</tr>
+<tr>
+<th style="text-align:left">simple-import-sort/imports</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7364,6 +7851,7 @@
 <tr>
 <th style="text-align:left">unicorn/better-regex</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7392,12 +7880,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/consistent-function-scoping</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7426,12 +7916,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/escape-case</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7460,12 +7952,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/explicit-length-check</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7494,12 +7988,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/import-style</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7528,12 +8024,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-abusive-eslint-disable</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7562,12 +8060,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-array-callback-reference</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7596,12 +8096,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-array-method-this-argument</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7630,12 +8132,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-array-reduce</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7664,12 +8168,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-await-in-promise-methods</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7698,12 +8204,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-document-cookie</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7732,12 +8240,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-for-loop</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7766,12 +8276,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-instanceof-array</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7800,12 +8312,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-lonely-if</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7834,12 +8348,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-new-array</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7868,12 +8384,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-null</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7902,12 +8420,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-process-exit</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7936,12 +8456,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-static-only-class</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7970,12 +8492,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-this-assignment</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8004,12 +8528,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-unnecessary-await</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8038,12 +8564,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-unreadable-array-destructuring</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8072,12 +8600,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-useless-fallback-in-spread</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8106,12 +8636,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-useless-promise-resolve-reject</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8140,12 +8672,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-useless-switch-case</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8174,12 +8708,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/no-zero-fractions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8208,12 +8744,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-add-event-listener</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8242,12 +8780,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-array-flat</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8276,12 +8816,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-array-index-of</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8310,12 +8852,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-at</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8344,12 +8888,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-code-point</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8378,12 +8924,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-default-parameters</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8412,12 +8960,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-dom-node-dataset</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8446,12 +8996,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-dom-node-text-content</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8480,12 +9032,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-export-from</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8514,12 +9068,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-keyboard-event-key</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8548,12 +9104,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-math-trunc</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8582,12 +9140,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-modern-math-apis</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8616,12 +9176,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-native-coercion-functions</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8650,12 +9212,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-node-protocol</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8684,12 +9248,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-object-from-entries</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8718,12 +9284,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-prototype-methods</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8752,12 +9320,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-reflect-apply</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8786,12 +9356,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-set-has</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8820,12 +9392,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-spread</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8854,12 +9428,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-string-slice</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8888,12 +9464,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-string-trim-start-end</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8922,12 +9500,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-ternary</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8956,12 +9536,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prefer-type-error</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8982,6 +9564,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8996,6 +9579,7 @@
 <tr>
 <th style="text-align:left">unicorn/relative-url-style</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -9024,12 +9608,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/require-number-to-fixed-digits-argument</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -9058,12 +9644,14 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">unicorn/text-encoding-identifier-case</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -9092,7 +9680,26 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+</tr>
+<tr>
+<th style="text-align:left">unused-imports/no-unused-imports</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 </tbody>

@@ -223,4 +223,12 @@ export async function loadConfigs(combined: CombinedRules) {
     }),
     "remix"
   )
+
+  await mergeConfig(
+    combined,
+    getConfig({
+      extends: ["./config/index"]
+    }),
+    "local"
+  )
 }

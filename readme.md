@@ -19,7 +19,7 @@ Introducing `@effective/eslint-config`—your definitive ESLint configuration pa
 - **Fully Customizable:** With the understanding that each project is unique, `Effective ESLint` is built to be fully customizable. It allows for easy adjustment or deactivation of specific rules to fit your project's needs, providing a perfect mix of guideline enforcement and creative latitude.
 - **Streamlined Integration:** `Effective ESLint` is designed to be user-friendly, streamlining the setup process. Its configuration facilitates quick integration, allowing you to refine your codebase efficiently, without the complexities of intricate setups.
 - **Enhanced Efficiency:** `Effective ESLint` enhances the linting process by combining multiple presets into one, which not only eases management but also improves the linter's startup time. This results in a quicker and more productive development workflow.
-- **Addons:** `Effective ESLint` includes addons that enhance code consistency, specifically for imports, JSX code, and enforcing sensible defaults to maintain low code complexity.
+- **Local Preset:** `Effective ESLint` includes local rules that enhance code consistency, specifically for imports, JSX code, and enforcing sensible defaults to maintain low code complexity.
 - **Community-Driven Development:** The development of `Effective ESLint` is community-driven, emphasizing continuous improvement and inclusivity. Contributions from the community are highly encouraged, helping to keep our configurations up-to-date with the latest coding standards and practices.
 
 ## Installation
@@ -84,17 +84,18 @@ Effective ESLint is further enriched by recommended rules from these plugins:
 5. [JSDoc](https://github.com/gajus/eslint-plugin-jsdoc): Enables all recommended JSDoc rules, excluding those starting with `required-`. This reflects the TypeScript project's reliance on the type system over extensive JSDoc comments.
 6. [RegExp Plugin](https://www.npmjs.com/package/eslint-plugin-regexp): All recommended RegExp rules are enabled to ensure expressions are both efficient and error-free.
 
-### Addons
+### Local Preset
 
-There are three addon files:
+The local preset option was introduced to enable non-code moderation capabilities, addressing the limitations of a purely priority-based approach. In certain situations, this single-faceted method proves insufficient, such as when a specific setting from one preset should prevail due to its more common usage, despite conflicting with a higher-priority preset. The local preset currently encompasses four categories:
 
-- `import`: sorting and grouping imports automatically
-- `quality`: sensible defaults for complexity, file size, etc.
-- `react`: enhanced unified code style for JSX code
+- `import`: Automates the sorting and grouping of import statements.
+- `naming`: Implements XO-based naming conventions for variables and functions but adds support for uppercase global constants.
+- `quality`: Establishes sensible defaults for various code quality metrics, such as complexity, file size, and type definition styles.
+- `react`: Promotes a unified coding style for JSX, enhancing readability and maintainability.
 
-These are all part of the `recommended` import which we suggest to use. Alternatively you can also built upon the base unified rule set by importing `main` instead.
+These enhancements are part of the local preset, which predominantly builds upon the foundations set by existing presets, as previously mentioned.
 
-### Focus: React/TypeScript
+### Focussed on React/TypeScript
 
 Effective ESLint globally excludes specific namespaces/plugins to maintain focus and avoid conflicts:
 
