@@ -31,6 +31,9 @@ export const base = {
   languageOptions: {
     parser: typeScriptParser,
     parserOptions: {
+      warnOnUnsupportedTypeScriptVersion: false,
+      ecmaFeatures: { jsx: true },
+      ecmaVersion: "latest",
       sourceType: "module",
       project: `${process.cwd()}/tsconfig.json`
     }
