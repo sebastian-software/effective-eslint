@@ -110,7 +110,7 @@
 </tr>
 <tr>
 <th style="text-align:left">complexity</th>
-<td style="background:#ffe0ad;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -146,7 +146,7 @@
 </tr>
 <tr>
 <th style="text-align:left">eqeqeq</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -218,7 +218,7 @@
 </tr>
 <tr>
 <th style="text-align:left">func-style</th>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -308,7 +308,7 @@
 </tr>
 <tr>
 <th style="text-align:left">max-lines</th>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5888,7 +5888,7 @@
 </tr>
 <tr>
 <th style="text-align:left">react/jsx-curly-brace-presence</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -7832,7 +7832,7 @@
 </tr>
 <tr>
 <th style="text-align:left">simple-import-sort/imports</th>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -9560,7 +9560,7 @@
 </tr>
 <tr>
 <th style="text-align:left">unicorn/prevent-abbreviations</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -9686,7 +9686,7 @@
 </tr>
 <tr>
 <th style="text-align:left">unused-imports/no-unused-imports</th>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>

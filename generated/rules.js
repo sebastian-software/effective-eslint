@@ -26,13 +26,15 @@
     "off"
   ],
   "complexity": [
-    "warn"
+    "error",
+    15
   ],
   "default-case-last": [
     "error"
   ],
   "eqeqeq": [
-    "error"
+    "error",
+    "smart"
   ],
   "for-direction": [
     "error"
@@ -46,6 +48,13 @@
   "func-names": [
     "error",
     "never"
+  ],
+  "func-style": [
+    "error",
+    "declaration",
+    {
+      "allowArrowFunctions": true
+    }
   ],
   "grouped-accessor-pairs": [
     "error",
@@ -63,6 +72,14 @@
   ],
   "max-depth": [
     "warn"
+  ],
+  "max-lines": [
+    "error",
+    {
+      "max": 1000,
+      "skipBlankLines": false,
+      "skipComments": false
+    }
   ],
   "max-nested-callbacks": [
     "warn",
@@ -616,7 +633,7 @@
   ],
   "@typescript-eslint/consistent-type-definitions": [
     "error",
-    "type"
+    "interface"
   ],
   "@typescript-eslint/consistent-type-exports": [
     "error",
@@ -627,7 +644,8 @@
   "@typescript-eslint/consistent-type-imports": [
     "error",
     {
-      "fixStyle": "inline-type-imports"
+      "prefer": "type-imports",
+      "fixStyle": "separate-type-imports"
     }
   ],
   "@typescript-eslint/default-param-last": [
@@ -696,6 +714,27 @@
   ],
   "@typescript-eslint/naming-convention": [
     "error",
+    {
+      "selector": "variable",
+      "format": [
+        "UPPER_CASE"
+      ],
+      "modifiers": [
+        "const",
+        "global"
+      ],
+      "types": [
+        "boolean",
+        "number",
+        "string"
+      ],
+      "leadingUnderscore": "forbid",
+      "trailingUnderscore": "forbid",
+      "filter": {
+        "regex": "[- ]",
+        "match": false
+      }
+    },
     {
       "selector": [
         "variable",
@@ -1251,12 +1290,7 @@
     "error"
   ],
   "react/jsx-curly-brace-presence": [
-    "error",
-    {
-      "props": "never",
-      "children": "never",
-      "propElementValues": "always"
-    }
+    "error"
   ],
   "react/jsx-fragments": [
     "error",
@@ -1621,6 +1655,9 @@
   "regexp/use-ignore-case": [
     "error"
   ],
+  "simple-import-sort/imports": [
+    "error"
+  ],
   "unicorn/better-regex": [
     "error"
   ],
@@ -1907,7 +1944,12 @@
     "error"
   ],
   "unicorn/prevent-abbreviations": [
-    "error"
+    "error",
+    {
+      "replacements": {
+        "props": false
+      }
+    }
   ],
   "unicorn/relative-url-style": [
     "error"
@@ -1925,6 +1967,9 @@
     "error"
   ],
   "unicorn/throw-new-error": [
+    "error"
+  ],
+  "unused-imports/no-unused-imports": [
     "error"
   ]
 };

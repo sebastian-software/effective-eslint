@@ -1,5 +1,6 @@
 export const mergePriority = [
   // multi plugin presets
+  "local",
   "xo",
   "ts-strict-typed",
   "ts-stylistic-typed",
