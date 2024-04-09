@@ -42,8 +42,8 @@
   "devDependencies": {
     "@remix-run/eslint-config": "^2.8.1",
     "@types/eslint": "^8.56.7",
-    "@types/node": "^20.12.4",
-    "eslint": "^8.57.0",
+    "@types/node": "^20.12.6",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^14.1.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
@@ -54,19 +54,24 @@
     "prettier": "^3.2.5",
     "release-it": "^17.1.1",
     "tsx": "^4.7.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.5.0",
-    "@typescript-eslint/parser": "^7.5.0",
-    "eslint-plugin-jsdoc": "^48.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint-plugin-jsdoc": "^48.2.3",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-regexp": "^2.4.0",
+    "eslint-plugin-regexp": "^2.5.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-unicorn": "^52.0.0",
     "eslint-plugin-unused-imports": "^3.1.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@rushstack/eslint-patch@1.10.1": "patches/@rushstack__eslint-patch@1.10.1.patch"
+    }
   }
 }

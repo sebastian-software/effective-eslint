@@ -1,6 +1,6 @@
 import typeScriptPlugin from "@typescript-eslint/eslint-plugin"
 import type { Linter as LinterNS } from "eslint"
-import { ESLint, Linter } from "eslint"
+import { loadESLint, ESLint, Linter } from "eslint"
 import jsdocPlugin from "eslint-plugin-jsdoc"
 import jsxA11yPlugin from "eslint-plugin-jsx-a11y"
 import nodePlugin from "eslint-plugin-n"
@@ -12,6 +12,12 @@ import unicornPlugin from "eslint-plugin-unicorn"
 import unusedImportsPlugin from "eslint-plugin-unused-imports"
 
 import type { CombinedRules } from "./types"
+
+// For supporting a wide range of existing presets/plugins we have to use the
+// legacy configuration... at least for the time being. This should be okay
+// until v10.0.0 of ESLint (https://github.com/eslint/eslint/issues/13481).
+const LegacyESLint = await loadESLint({ useFlatConfig: false })
+const legacyLinter = new Linter({ configType: "eslintrc" })
 
 export const plugins: Record<string, ESLint.Plugin> = {
   "@typescript-eslint": typeScriptPlugin,
@@ -30,7 +36,7 @@ function getAutofixableRules() {
   const rules = new Set()
   const autofix = new Set()
 
-  for (const [ruleName, rule] of new Linter().getRules()) {
+  for (const [ruleName, rule] of legacyLinter.getRules()) {
     rules.add(ruleName)
     if (rule.meta?.fixable === "code") {
       autofix.add(ruleName)
@@ -55,12 +61,11 @@ function getAutofixableRules() {
 export const autofixRules = getAutofixableRules()
 
 async function getConfig(config: ESLint.ConfigData) {
-  const linter = new ESLint({
-    useEslintrc: false,
-    baseConfig: config
+  const eslint = new LegacyESLint({
+    overrideConfig: config
   })
 
-  const cfg = (await linter.calculateConfigForFile(
+  const cfg = (await eslint.calculateConfigForFile(
     "index.tsx"
   )) as ESLint.ConfigData
 

@@ -561,7 +561,7 @@
 <tr>
 <th style="text-align:left">no-constant-binary-expression</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -777,7 +777,7 @@
 <tr>
 <th style="text-align:left">no-empty-static-block</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -993,7 +993,7 @@
 <tr>
 <th style="text-align:left">no-inner-declarations</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1263,7 +1263,7 @@
 <tr>
 <th style="text-align:left">no-new-native-nonconstructor</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -1817,6 +1817,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
+</tr>
+<tr>
+<th style="text-align:left">no-unused-private-class-members</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
 <th style="text-align:left">no-useless-backreference</th>
@@ -2406,7 +2424,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#ccc;padding:3px 6px">✗</td>
+<td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2442,7 +2460,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -2874,7 +2892,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3558,7 +3576,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -3936,7 +3954,7 @@
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5419,6 +5437,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
+<th style="text-align:left">n/hashbang</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+</tr>
+<tr>
 <th style="text-align:left">n/no-deprecated-api</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5654,24 +5690,6 @@
 </tr>
 <tr>
 <th style="text-align:left">n/process-exit-as-throw</th>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-</tr>
-<tr>
-<th style="text-align:left">n/shebang</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>

@@ -1,0 +1,8 @@
+diff --git a/modern-module-resolution.js b/modern-module-resolution.js
+index 921317824f48c3780f6ab6e1c922126b75ab4e39..4396bdd119884ec6c0c73b910604f8aff66ca50c 100644
+--- a/modern-module-resolution.js
++++ b/modern-module-resolution.js
+@@ -1 +1,2 @@
+-require('./lib/modern-module-resolution');
++// This is not working/supported anymore in ESLint v9
++// require('./lib/modern-module-resolution');
