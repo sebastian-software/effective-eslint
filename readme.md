@@ -39,10 +39,10 @@ pnpm add @effective/eslint-config eslint --dev
 After installation, you can configure ESLint to use @effective/eslint-config by adding it to your `eslint.config.js` (flat configuration) file:
 
 ```js
-import { recommended } from "@effective/eslint-config"
+import { main } from "@effective/eslint-config"
 
 export default [
-  recommended
+  main
 
   // room for custom overrides
 ]
