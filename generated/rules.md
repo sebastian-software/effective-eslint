@@ -5401,6 +5401,24 @@
 <td style="background:#eee;padding:3px 6px"></td>
 </tr>
 <tr>
+<th style="text-align:left">n/hashbang</th>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+</tr>
+<tr>
 <th style="text-align:left">n/no-deprecated-api</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -5636,24 +5654,6 @@
 </tr>
 <tr>
 <th style="text-align:left">n/process-exit-as-throw</th>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-</tr>
-<tr>
-<th style="text-align:left">n/shebang</th>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
