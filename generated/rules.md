@@ -1261,24 +1261,6 @@
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
-<th style="text-align:left">no-new-native-nonconstructor</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
-</tr>
-<tr>
 <th style="text-align:left">no-new-object</th>
 <td style="background:#ffe0ad;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>

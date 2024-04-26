@@ -252,9 +252,6 @@
   "no-new-func": [
     "error"
   ],
-  "no-new-native-nonconstructor": [
-    "error"
-  ],
   "no-new-object": [
     "warn"
   ],
