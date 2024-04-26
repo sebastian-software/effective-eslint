@@ -69,7 +69,7 @@ function generateConfig(combined: CombinedRules) {
     }
   }
 
-  const json = JSON.stringify(rules, undefined, 2)
+  const json = JSON.stringify(rules, undefined, "  ")
   const wrapped = `
     const rules = ${json};
     export default rules;

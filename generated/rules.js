@@ -879,6 +879,19 @@
   "@typescript-eslint/no-loss-of-precision": [
     "error"
   ],
+  "@typescript-eslint/no-magic-numbers": [
+    "error",
+    {
+      "ignore": [
+        -1,
+        0,
+        1
+      ],
+      "ignoreEnums": true,
+      "ignoreNumericLiteralTypes": true,
+      "ignoreTypeIndexes": true
+    }
+  ],
   "@typescript-eslint/no-meaningless-void-operator": [
     "error"
   ],

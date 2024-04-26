@@ -35,6 +35,17 @@ export default {
   // Formatting, but kind of surprising formatting so better disabled.
   "unicorn/numeric-separators-style": "off",
 
+  // This is a very useful rule to prevent magic numbers in your code.
+  "@typescript-eslint/no-magic-numbers": [
+    "error",
+    {
+      ignore: [-1, 0, 1],
+      ignoreEnums: true,
+      ignoreNumericLiteralTypes: true,
+      ignoreTypeIndexes: true
+    }
+  ],
+
   // XO prefers types over interfaces, but most of the community prefers interfaces
   // it seems. This is also part of the stylistic TS preset and the default rule value.
   // See also:

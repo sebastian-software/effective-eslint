@@ -3115,6 +3115,24 @@
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 </tr>
 <tr>
+<th style="text-align:left">@typescript-eslint/no-magic-numbers</th>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#fdb5bb;padding:3px 6px">✓+</td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#eee;padding:3px 6px"></td>
+</tr>
+<tr>
 <th style="text-align:left">@typescript-eslint/no-meaningless-void-operator</th>
 <td style="background:#fdb5bb;padding:3px 6px">✓</td>
 <td style="background:#eee;padding:3px 6px"></td>
