@@ -17,7 +17,7 @@
     }
   ],
   "arrow-body-style": [
-    "error"
+    "off"
   ],
   "block-scoped-var": [
     "error"
@@ -1803,7 +1803,7 @@
     "error"
   ],
   "unicorn/numeric-separators-style": [
-    "error"
+    "off"
   ],
   "unicorn/prefer-add-event-listener": [
     "error"

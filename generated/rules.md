@@ -56,11 +56,11 @@
 </tr>
 <tr>
 <th style="text-align:left">arrow-body-style</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
@@ -8714,11 +8714,11 @@
 </tr>
 <tr>
 <th style="text-align:left">unicorn/numeric-separators-style</th>
-<td style="background:#fdb5bb;padding:3px 6px">✓</td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
-<td style="background:#eee;padding:3px 6px"></td>
+<td style="background:#ccc;padding:3px 6px">✗</td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>
 <td style="background:#eee;padding:3px 6px"></td>

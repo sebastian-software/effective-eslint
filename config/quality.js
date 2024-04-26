@@ -4,6 +4,10 @@ export default {
   // uniform codebase.
   "func-style": ["error", "declaration", { allowArrowFunctions: true }],
 
+  // This is mainly formatting related and only defined in XO. It typically
+  // interrupts developers while constructing code and is therefor better disabled.
+  "arrow-body-style": "off",
+
   // ReactApp suggests the smart mode, XO uses non smart. But smart is fine.
   // Typically we prefer XO over other presets but not here.
   eqeqeq: ["error", "smart"],
@@ -18,7 +22,7 @@ export default {
   ],
 
   // Useful rule for more maintainable code
-  // Block prop => properties (which is very common in ReactJS)
+  // Block `prop` => `properties` (which is a very common wording in ReactJS)
   "unicorn/prevent-abbreviations": [
     "error",
     {
@@ -27,6 +31,9 @@ export default {
       }
     }
   ],
+
+  // Formatting, but kind of surprising formatting so better disabled.
+  "unicorn/numeric-separators-style": "off",
 
   // XO prefers types over interfaces, but most of the community prefers interfaces
   // it seems. This is also part of the stylistic TS preset and the default rule value.
