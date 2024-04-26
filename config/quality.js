@@ -41,6 +41,7 @@ export default {
     {
       ignore: [-1, 0, 1],
       ignoreEnums: true,
+      ignoreDefaultValues: true,
       ignoreNumericLiteralTypes: true,
       ignoreTypeIndexes: true
     }

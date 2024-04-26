@@ -888,6 +888,7 @@
         1
       ],
       "ignoreEnums": true,
+      "ignoreDefaultValues": true,
       "ignoreNumericLiteralTypes": true,
       "ignoreTypeIndexes": true
     }
