@@ -308,8 +308,15 @@
     }
   ],
   "no-restricted-syntax": [
-    "warn",
-    "WithStatement"
+    "error",
+    {
+      "selector": "TSEnumDeclaration",
+      "message": "Don't declare enums - use union types instead"
+    },
+    {
+      "selector": "WithStatement",
+      "message": "Don't use with - it's deprecated"
+    }
   ],
   "no-return-assign": [
     "error",

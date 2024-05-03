@@ -21,6 +21,18 @@ export default {
     { max: 1000, skipBlankLines: false, skipComments: false }
   ],
 
+  "no-restricted-syntax": [
+    "error",
+    {
+      selector: "TSEnumDeclaration",
+      message: "Don't declare enums - use union types instead"
+    },
+    {
+      selector: "WithStatement",
+      message: "Don't use with - it's deprecated"
+    }
+  ],
+
   // Useful rule for more maintainable code
   // Block `prop` => `properties` (which is a very common wording in ReactJS)
   "unicorn/prevent-abbreviations": [
